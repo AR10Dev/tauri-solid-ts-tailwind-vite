@@ -1,0 +1,29 @@
+{
+  "name": "tauri-solid-tailwind-ts-vite-template",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "eslint": "eslint src",
+    "eslint:fix": "eslint src --fix",
+    "tauri": "tauri"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.1.0",
+    "@typescript-eslint/parser": "5.1.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint": "8.0.1",
+    "prettier": "2.4.1",
+    "typescript": "4.4.4",
+    "vite": "2.6.10",
+    "vite-plugin-solid": "2.1.1",
+    "tailwindcss": "2.2.17"
+  },
+  "dependencies": {
+    "solid-js": "1.1.7",
+    "@tauri-apps/api": "1.0.0-beta.8",
+    "@tauri-apps/cli": "1.0.0-beta.10"
+  }
+}
