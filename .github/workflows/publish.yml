@@ -53,4 +53,4 @@ jobs:
           releaseName: 'v__VERSION__'
           releaseDraft: true
           prerelease: false
-          tauriScript: 'pnpm tauri build'
+          tauriScript: 'pnpm tauri'
