@@ -9,7 +9,7 @@ specifiers:
   eslint-config-prettier: 8.3.0
   eslint-plugin-prettier: 4.0.0
   prettier: 2.4.1
-  solid-js: 1.2.4
+  solid-js: 1.2.5
   tailwindcss: 2.2.19
   typescript: 4.5.2
   vite: 2.6.14
@@ -18,7 +18,7 @@ specifiers:
 dependencies:
   '@tauri-apps/api': 1.0.0-beta.8
   '@tauri-apps/cli': 1.0.0-beta.10
-  solid-js: 1.2.4
+  solid-js: 1.2.5
 
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.4.0_d6f2571581882eb2d6c9d9867e002185
@@ -3879,15 +3879,15 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /solid-js/1.2.4:
-    resolution: {integrity: sha512-S5op8oZEXre4JpDpT6B0zcuUxslkp73hn7unrUO3rxfdDMh+Fm3NvsDSD0AX67G7GUW+jh63CuxrvJ+idSxLNQ==}
+  /solid-js/1.2.5:
+    resolution: {integrity: sha512-XcPEULgqd/XbBu8LwtGWs5RGowvIpq88/ZNI/xgJ9PaxRJWwbVlSNsS+ywUWncxRdKsPoVe8vdcIsH4gBJjh3Q==}
 
-  /solid-refresh/0.2.2_solid-js@1.2.4:
+  /solid-refresh/0.2.2_solid-js@1.2.5:
     resolution: {integrity: sha512-oQN3pUJ8fBd4ldMxZVqK7S4PGzAn1yx1B5bRRfANoxoqmHyY2QLfzrOzXsYnAkhh272K+W24oKgFWlmdUZ6HtQ==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:
-      solid-js: 1.2.4
+      solid-js: 1.2.5
     dev: true
 
   /sort-keys-length/1.0.1:
@@ -4381,8 +4381,8 @@ packages:
       '@babel/preset-typescript': 7.16.0_@babel+core@7.16.0
       babel-preset-solid: 1.2.4_@babel+core@7.16.0
       merge-anything: 4.0.2
-      solid-js: 1.2.4
-      solid-refresh: 0.2.2_solid-js@1.2.4
+      solid-js: 1.2.5
+      solid-refresh: 0.2.2_solid-js@1.2.5
       vite: 2.6.14
     transitivePeerDependencies:
       - less

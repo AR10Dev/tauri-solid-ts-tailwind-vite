@@ -22,7 +22,7 @@
     "tailwindcss": "2.2.19"
   },
   "dependencies": {
-    "solid-js": "1.2.4",
+    "solid-js": "1.2.5",
     "@tauri-apps/api": "1.0.0-beta.8",
     "@tauri-apps/cli": "1.0.0-beta.10"
   }
