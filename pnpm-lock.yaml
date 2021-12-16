@@ -10,9 +10,9 @@ specifiers:
   eslint-plugin-prettier: 4.0.0
   prettier: 2.5.1
   solid-js: 1.2.6
-  tailwindcss: 3.0.2
+  tailwindcss: 3.0.6
   typescript: 4.5.4
-  vite: 2.7.2
+  vite: 2.7.3
   vite-plugin-solid: 2.1.4
 
 dependencies:
@@ -27,9 +27,9 @@ devDependencies:
   eslint-config-prettier: 8.3.0_eslint@8.4.1
   eslint-plugin-prettier: 4.0.0_90bd2ba582f6d1348d73031482d782e2
   prettier: 2.5.1
-  tailwindcss: 3.0.2
+  tailwindcss: 3.0.6
   typescript: 4.5.4
-  vite: 2.7.2
+  vite: 2.7.3
   vite-plugin-solid: 2.1.4
 
 packages:
@@ -3321,11 +3321,11 @@ packages:
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
     dev: true
 
-  /postcss-selector-parser/6.0.6:
-    resolution: {integrity: sha512-9LXrvaaX3+mcv5xkg5kFwqSzSH1JIObIx51PrndZwlmznwXRfxMddDvo9gve3gVR8ZTKgoFDdWkbRFmEhT4PMg==}
+  /postcss-selector-parser/6.0.7:
+    resolution: {integrity: sha512-U+b/Deoi4I/UmE6KOVPpnhS7I7AYdKbhGcat+qTQ27gycvaACvNEw11ba6RrkwVmDVRW7sigWgLj4/KbbJjeDA==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -3981,8 +3981,8 @@ packages:
     dependencies:
       has-flag: 4.0.0
 
-  /tailwindcss/3.0.2:
-    resolution: {integrity: sha512-i1KpjYnGYftjzdAth6jA5iMPjhxpUkk5L6DafhfnQs+KiiWaThYxmk47Weh4oFH1mZqP6MuiQNHxtoRVPOraLg==}
+  /tailwindcss/3.0.6:
+    resolution: {integrity: sha512-+CA2f09rbHFDsdQ1iDvsOGbF1tZFmyPoRhUeaF9/5FRT5GYObtp+UjTSCdmeDcu6T90bx4WAaOkddYFPBkjbAA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -4005,7 +4005,7 @@ packages:
       postcss-js: 3.0.3
       postcss-load-config: 3.1.0
       postcss-nested: 5.0.6
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
       resolve: 1.20.0
@@ -4281,7 +4281,7 @@ packages:
       merge-anything: 4.0.2
       solid-js: 1.2.6
       solid-refresh: 0.3.2_solid-js@1.2.6
-      vite: 2.7.2
+      vite: 2.7.3
     transitivePeerDependencies:
       - less
       - sass
@@ -4289,8 +4289,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite/2.7.2:
-    resolution: {integrity: sha512-wMffVVdKZRZP/HwW3yttKL8X+IJePz7bUcnGm0vqljffpVwHpjWC3duZtJQHAGvy+wrTjmwU7vkULpZ1dVXY6w==}
+  /vite/2.7.3:
+    resolution: {integrity: sha512-GAY1P+9fLJOju1SRm8+hykVnEXog+E+KXuqqyMBQDriKCUIKzWnPn142yNNhSdf/ixYGYdUa5ce3A8WaEajzGw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
