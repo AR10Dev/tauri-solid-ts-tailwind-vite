@@ -10,9 +10,9 @@ specifiers:
   eslint-plugin-prettier: 4.0.0
   prettier: 2.5.1
   solid-js: 1.2.6
-  tailwindcss: 3.0.7
+  tailwindcss: 3.0.8
   typescript: 4.5.4
-  vite: 2.7.8
+  vite: 2.7.9
   vite-plugin-solid: 2.1.4
 
 dependencies:
@@ -27,9 +27,9 @@ devDependencies:
   eslint-config-prettier: 8.3.0_eslint@8.5.0
   eslint-plugin-prettier: 4.0.0_94e1b6d3ce6ea916847122712570e9ae
   prettier: 2.5.1
-  tailwindcss: 3.0.7
+  tailwindcss: 3.0.8
   typescript: 4.5.4
-  vite: 2.7.8
+  vite: 2.7.9
   vite-plugin-solid: 2.1.4
 
 packages:
@@ -3981,8 +3981,8 @@ packages:
     dependencies:
       has-flag: 4.0.0
 
-  /tailwindcss/3.0.7:
-    resolution: {integrity: sha512-rZdKNHtC64jcQncLoWOuCzj4lQDTAgLtgK3WmQS88tTdpHh9OwLqULTQxI3tw9AMJsqSpCKlmcjW/8CSnni6zQ==}
+  /tailwindcss/3.0.8:
+    resolution: {integrity: sha512-Yww1eRYO1AxITJmW/KduZPxNvYdHuedeKwPju9Oakp7MdiixRi5xkpLhirsc81QCxHL0eoce6qKmxXwYGt4Cjw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -4281,7 +4281,7 @@ packages:
       merge-anything: 4.0.2
       solid-js: 1.2.6
       solid-refresh: 0.3.2_solid-js@1.2.6
-      vite: 2.7.8
+      vite: 2.7.9
     transitivePeerDependencies:
       - less
       - sass
@@ -4289,8 +4289,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite/2.7.8:
-    resolution: {integrity: sha512-NOgvRtXUq4/7srE2cTQ2IU1oERdGq2njVOlZtgRrjMO+PPJpncd61/AUzxzZklQ1zBkiWXEVrw3Csq0Sbgr0rQ==}
+  /vite/2.7.9:
+    resolution: {integrity: sha512-CyopIJIRrc26Wnbkch5BCHFhQodzeV4jjSegLAEw1RImvXSuoOo2SfpEW9zRVi188WmjJwCqCaoG25C0r4nekw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
