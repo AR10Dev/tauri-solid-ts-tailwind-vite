@@ -10,6 +10,7 @@
     "extends": [
       "group:all"
     ],
-    "commitMessageAction": "Update"
+    "commitMessageAction": "Update",
+    "automerge": true
   }
 }
