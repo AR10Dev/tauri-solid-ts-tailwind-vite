@@ -1,6 +1,7 @@
 {
   "name": "tauri-solid-tailwind-ts-vite-template",
   "version": "1.0.0",
+  "author": "AR10",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
