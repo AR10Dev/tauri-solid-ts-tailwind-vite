@@ -13,7 +13,7 @@ specifiers:
   eslint-plugin-prettier: 4.0.0
   postcss: 8.4.6
   prettier: 2.5.1
-  solid-js: 1.3.5
+  solid-js: 1.3.7
   tailwindcss: 3.0.23
   typescript: 4.5.5
   vite: 2.8.4
@@ -22,7 +22,7 @@ specifiers:
 dependencies:
   '@tauri-apps/api': 1.0.0-rc.1
   '@tauri-apps/cli': 1.0.0-rc.2
-  solid-js: 1.3.5
+  solid-js: 1.3.7
 
 devDependencies:
   '@types/node': 17.0.14
@@ -2319,15 +2319,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /resolve/1.21.0:
-    resolution: {integrity: sha512-3wCbTpk5WJlyE4mSOtDLhqQmGFi0/TD9VPwmiolnk8U0wRgMEktqCXd3vy5buTO3tljvalNvKrjHEfrd2WpEKA==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.8.1
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-    dev: true
-
   /resolve/1.22.0:
     resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
     hasBin: true
@@ -2397,10 +2388,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js/1.3.5:
-    resolution: {integrity: sha512-PUom2cCARfvvgxI7cwOhfXMrZZZxjp+vIrb5fzVNBFyICy8A30wTqExwfUv457eJYgKpii2D3qStW9ILtKnShw==}
+  /solid-js/1.3.7:
+    resolution: {integrity: sha512-YAz0NQhIZ8yCR2VZK8aMjNrWMU4gnmCgzqy7EpMF7WsyWV3PSoO3HvDs3kR75Ejk/a4ohfxQNiLhC9TOQltXSA==}
 
-  /solid-refresh/0.4.0_solid-js@1.3.5:
+  /solid-refresh/0.4.0_solid-js@1.3.7:
     resolution: {integrity: sha512-5XCUz845n/sHPzKK2i2G2EeV61tAmzv6SqzqhXcPaYhrgzVy7nKTQaBpKK8InKrriq9Z2JFF/mguIU00t/73xw==}
     peerDependencies:
       solid-js: ^1.3.0
@@ -2408,7 +2399,7 @@ packages:
       '@babel/generator': 7.16.8
       '@babel/helper-module-imports': 7.16.7
       '@babel/types': 7.16.8
-      solid-js: 1.3.5
+      solid-js: 1.3.7
     dev: true
 
   /source-map-js/1.0.2:
@@ -2601,8 +2592,8 @@ packages:
       '@babel/preset-typescript': 7.16.7_@babel+core@7.16.12
       babel-preset-solid: 1.3.1_@babel+core@7.16.12
       merge-anything: 5.0.2
-      solid-js: 1.3.5
-      solid-refresh: 0.4.0_solid-js@1.3.5
+      solid-js: 1.3.7
+      solid-refresh: 0.4.0_solid-js@1.3.7
       vite: 2.8.4
     transitivePeerDependencies:
       - less
