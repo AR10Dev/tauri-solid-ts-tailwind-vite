@@ -361,6 +361,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "cargo_toml"
+version = "0.11.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4e270ef0cd868745878982f7ce470aa898d0d4bb248af67f0cf66f54617913ef"
+dependencies = [
+ "serde",
+ "serde_derive",
+ "toml",
+]
+
+[[package]]
 name = "cc"
 version = "1.0.72"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3220,13 +3231,12 @@ dependencies = [
 
 [[package]]
 name = "tauri-build"
-version = "1.0.0-beta.4"
+version = "1.0.0-rc.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3c9c9a9bea25b9d6f5845b8662e18447e17218f99860cab37e39e2b57a9fcd49"
+checksum = "b4dab79d01b8e429cb5bd98d9da90cbc1bedbd87d536d16adcf269c584bf6ae0"
 dependencies = [
  "anyhow",
- "proc-macro2",
- "quote",
+ "cargo_toml",
  "serde_json",
  "tauri-utils",
  "winres",
@@ -3311,6 +3321,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "abcbfec197c4cb959376607ac2fd99cecca02bd6d52b794bd882959501e34533"
 dependencies = [
  "ctor",
+ "glob",
  "heck 0.4.0",
  "html5ever",
  "json-patch",
@@ -3324,6 +3335,7 @@ dependencies = [
  "serialize-to-javascript",
  "thiserror",
  "url",
+ "walkdir",
  "zstd",
 ]
 
