@@ -1,0 +1,43 @@
+name: CI
+on: 
+  push:
+    branches:
+      - 'renovate/**'
+    paths:
+      - 'src-tauri/Cargo.toml'
+      
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        
+      - name: Install webkit2gtk
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y webkit2gtk-4.0
+        
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 6
+
+      - name: Setup node and Cache .pnpm-store
+        uses: actions/setup-node@v2
+        with:
+          node-version: '17'
+          cache: 'pnpm'
+        
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build 🔧
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tauriScript: 'pnpm tauri'
