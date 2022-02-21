@@ -1,9 +1,16 @@
 {
     "extends": ["config:base", ":disableDependencyDashboard", "schedule:daily"],
     "enabledManagers": ["cargo", "npm", "github-actions"],
-    "packageRules": {
-        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-        "automerge": true,
-        "automergeType": "branch"
-    }
+    "packageRules": [
+        {
+            "matchUpdateTypes": ["minor", "patch", "pin", "digest", "rollback"],
+            "automerge": true,
+            "automergeType": "branch"
+        },
+        {
+            "matchUpdateTypes": ["major"],
+            "automerge": false,
+            "prCreation": "immediate"
+        }
+    ]
 }
