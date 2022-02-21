@@ -1,0 +1,29 @@
+name: Update NodeJS Dependencies
+on: 
+  push:
+    branches:
+      - 'renovate/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 6
+
+      - name: Setup node and Cache .pnpm-store
+        uses: actions/setup-node@v2
+        with:
+          node-version: '17'
+          cache: 'pnpm'
+        
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build 🔧
+        run: pnpm build
