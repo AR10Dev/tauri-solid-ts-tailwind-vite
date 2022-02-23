@@ -43,7 +43,7 @@ When you use this template, follow the checklist to update your info properly
 - [ ] Rename `name`, `version` and `author` field in `package.json`
 - [ ] Rename `name`, `version`, `description`, `authors` and `repository` field in `src-tauri/Cargo.toml`
 - [ ] Change the author name in `LICENSE`
-- [ ] Remove the `renovate.json` which contains the renovate config
+- [ ] Remove the `renovate.json5` which contains the renovate config
 - [ ] Clean up the READMEs
 - [ ] Optional: Remove the `.github` folder which contains the github action for cross compilation
 - [ ] Only if you are using pnpm or yarn, replace `pnpm` in line 9 and 10 of `src-tauri/tauri.conf.json` with your package manager name
@@ -87,4 +87,8 @@ npm run tauri icon [path to the .png icon file] # or pnpm tauri icon [path to th
 
 Generates your custom app icon.<br>
 Your new apps will be located in `src-tauri/icons/` and remeber to update the `icon` field in `src-tauri/tauri.conf.json` with all your new icon path name.<br>
-For more info follow this [guide](https://tauri.studio/en/docs/usage/guides/visual/icons).<br>
+For more info follow this [guide](https://tauri.studio/docs/guides/icons/).<br>
+
+## Customize the tauri.conf.json
+
+To modify and personalize your app, you need to modify `src-tauri/tauri.conf.json` by following this [guide](https://tauri.studio/docs/api/config/)
