@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite-tauri dev",
     "build": "vite-tauri build",
+    "build:vite": "vite build",
     "serve": "vite preview",
     "eslint": "eslint src",
     "eslint:fix": "eslint src --fix",
