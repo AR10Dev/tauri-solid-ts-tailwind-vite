@@ -22,3 +22,9 @@ tauri = { version = "1.0.0-rc.10", features = ["api-all"] }
 [features]
 default = [ "custom-protocol" ]
 custom-protocol = [ "tauri/custom-protocol" ]
+
+[profile.release]
+panic = "abort"         # Strip expensive panic clean-up logic
+codegen-units = 1       # Compile crates one after another so the compiler can optimize better
+lto = true              # Enables link to optimizations
+opt-level = "s"         # Optimize for binary size
