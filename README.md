@@ -46,7 +46,6 @@ When you use this template, follow the checklist to update your info properly
 - [ ] Remove the `renovate.json5` which contains the renovate config
 - [ ] Clean up the READMEs
 - [ ] Optional: Remove the `.github` folder which contains the github action for cross compilation
-- [ ] Only if you are using pnpm or yarn, replace `pnpm` in line 9 and 10 of `src-tauri/tauri.conf.json` with your package manager name
 - [ ] Enjoy 😉
 
 ## Usage
