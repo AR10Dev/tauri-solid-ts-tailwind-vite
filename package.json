@@ -16,7 +16,7 @@
     "@typescript-eslint/eslint-plugin": "5.23.0",
     "@typescript-eslint/parser": "5.23.0",
     "autoprefixer": "10.4.7",
-    "cssnano": "5.1.8",
+    "cssnano": "5.1.9",
     "eslint": "8.15.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",
