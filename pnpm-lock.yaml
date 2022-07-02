@@ -9,7 +9,7 @@ specifiers:
   cssnano: 5.1.12
   eslint: 8.18.0
   eslint-config-prettier: 8.5.0
-  eslint-plugin-prettier: 4.0.0
+  eslint-plugin-prettier: 4.2.1
   postcss: 8.4.14
   prettier: 2.7.1
   solid-js: 1.4.5
@@ -31,7 +31,7 @@ devDependencies:
   cssnano: 5.1.12_postcss@8.4.14
   eslint: 8.18.0
   eslint-config-prettier: 8.5.0_eslint@8.18.0
-  eslint-plugin-prettier: 4.0.0_xu6ewijrtliw5q5lksq5uixwby
+  eslint-plugin-prettier: 4.2.1_xu6ewijrtliw5q5lksq5uixwby
   postcss: 8.4.14
   prettier: 2.7.1
   tailwindcss: 3.1.4
@@ -1345,9 +1345,9 @@ packages:
       eslint: 8.18.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_xu6ewijrtliw5q5lksq5uixwby:
-    resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
-    engines: {node: '>=6.0.0'}
+  /eslint-plugin-prettier/4.2.1_xu6ewijrtliw5q5lksq5uixwby:
+    resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: '>=7.28.0'
       eslint-config-prettier: '*'
