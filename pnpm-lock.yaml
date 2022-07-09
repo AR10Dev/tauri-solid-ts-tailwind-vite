@@ -15,7 +15,7 @@ specifiers:
   solid-js: 1.4.7
   tailwindcss: 3.1.5
   typescript: 4.7.4
-  vite: 2.9.13
+  vite: 2.9.14
   vite-plugin-solid: 2.2.6
   vite-plugin-tauri: 2.1.0
 
@@ -36,9 +36,9 @@ devDependencies:
   prettier: 2.7.1
   tailwindcss: 3.1.5
   typescript: 4.7.4
-  vite: 2.9.13
+  vite: 2.9.14
   vite-plugin-solid: 2.2.6
-  vite-plugin-tauri: 2.1.0_kl6dusgesny3uhtqxpjodwkekq
+  vite-plugin-tauri: 2.1.0_en46clcd3lwwvjvcpnzybev7ui
 
 packages:
 
@@ -2315,15 +2315,6 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /resolve/1.22.0:
-    resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.9.0
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-    dev: true
-
   /resolve/1.22.1:
     resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
     hasBin: true
@@ -2588,7 +2579,7 @@ packages:
       merge-anything: 5.0.2
       solid-js: 1.4.7
       solid-refresh: 0.4.0_solid-js@1.4.7
-      vite: 2.9.13
+      vite: 2.9.14
     transitivePeerDependencies:
       - less
       - sass
@@ -2596,7 +2587,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri/2.1.0_kl6dusgesny3uhtqxpjodwkekq:
+  /vite-plugin-tauri/2.1.0_en46clcd3lwwvjvcpnzybev7ui:
     resolution: {integrity: sha512-lD8soA0ZB2B6VPtYHU09LPDWVkTwWtXbkRUjkYSKkwyvtDGCb9itj9lxCMUpV3wzhUqiQIcrO2HVhyhryfAbLQ==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -2607,11 +2598,11 @@ packages:
       '@tauri-apps/cli': 1.0.3
       fast-glob: 3.2.11
       kolorist: 1.5.1
-      vite: 2.9.13
+      vite: 2.9.14
     dev: true
 
-  /vite/2.9.13:
-    resolution: {integrity: sha512-AsOBAaT0AD7Mhe8DuK+/kE4aWYFMx/i0ZNi98hJclxb4e0OhQcZYUrvLjIaQ8e59Ui7txcvKMiJC1yftqpQoDw==}
+  /vite/2.9.14:
+    resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -2628,7 +2619,7 @@ packages:
     dependencies:
       esbuild: 0.14.38
       postcss: 8.4.14
-      resolve: 1.22.0
+      resolve: 1.22.1
       rollup: 2.70.2
     optionalDependencies:
       fsevents: 2.3.2
