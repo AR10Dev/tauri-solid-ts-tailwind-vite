@@ -1,16 +1,18 @@
 {
+  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
+  "build": {
+    "devPath": "http://localhost:5173",
+    "distDir": "../dist",
+    "withGlobalTauri": false
+  },
   "package": {
     "productName": "MyApp",
     "version": "1.0.0"
   },
-  "build": {
-    "distDir": "../dist",
-    "devPath": "http://localhost:3000",
-    "beforeDevCommand": "",
-    "beforeBuildCommand": "",
-    "withGlobalTauri": false
-  },
   "tauri": {
+    "allowlist": {
+      "all": true
+    },
     "bundle": {
       "active": true,
       "targets": "all",
@@ -46,9 +48,6 @@
     },
     "updater": {
       "active": false
-    },
-    "allowlist": {
-      "all": true
     },
     "windows": [
       {

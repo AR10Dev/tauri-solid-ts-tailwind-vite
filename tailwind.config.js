@@ -1,9 +1,12 @@
 module.exports = {
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media'
   minify: true,
-  content: ['./src/*.tsx', './*.html'],
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx,css,md,mdx,html,json,scss}',
+  ],
   theme: {
-    extend: {}
+    extend: {},
   },
-  plugins: []
+  plugins: [],
 }
