@@ -43,7 +43,6 @@ When you use this template, follow the checklist to update your info properly
 - [ ] Rename `name`, `version` and `author` field in `package.json`
 - [ ] Rename `name`, `version`, `description`, `authors` and `repository` field in `src-tauri/Cargo.toml`
 - [ ] Change the author name in `LICENSE`
-- [ ] Remove the `renovate.json5` which contains the renovate config
 - [ ] Clean up the READMEs
 - [ ] Optional: Remove the `.github` folder which contains the github action for cross compilation
 - [ ] Enjoy 😉
