@@ -1,8 +1,5 @@
 {
     "extends": ["config:base", ":disableDependencyDashboard"],
-    "schedule": [
-        "every 1 hours"
-    ],
     "enabledManagers": ["cargo", "npm", "github-actions"],
     "packageRules": [
         {
