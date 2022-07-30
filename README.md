@@ -28,7 +28,7 @@ A starter template for [Tauri](https://www.tauri.studio/) + [Solid](https://soli
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit AR10Dev/tauri-solid-tailwind-ts-vite my-app
+npx degit AR10Dev/tauri-solid-ts-tailwind-vite my-app
 cd my-app
 npm install # or pnpm install or yarn install
 ```
