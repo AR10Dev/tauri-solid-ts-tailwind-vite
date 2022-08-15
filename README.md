@@ -11,7 +11,7 @@ A starter template for [Tauri](https://tauri.app) + [Solid](https://solidjs.com)
 
 - 🎨 [Tailwind CSS](https://tailwindcss.com) - A utility-first CSS framework for rapid UI development.
 
-- 💪 [TypeScript](https://www.typescriptlang.org) - it's JavaScript with syntax for types.
+- 💪 [TypeScript](https://typescriptlang.org) - it's JavaScript with syntax for types.
 
 - 👌 [ESLint](https://eslint.org) + [Prettier](https://prettier.io) - ESLint find problems in your code and Prettier format your code for an easy life.
 
