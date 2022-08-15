@@ -1,19 +1,19 @@
-# [Tauri](https://www.tauri.studio/) + [Solid](https://solidjs.com) + [Tailwind CSS](https://tailwindcss.com/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/) Starter
+# [Tauri](https://tauri.app) + [Solid](https://solidjs.com) + [Tailwind CSS](https://tailwindcss.com) + [TypeScript](https://typescriptlang.org) + [Vite](https://vitejs.dev) Starter
 
-A starter template for [Tauri](https://www.tauri.studio/) + [Solid](https://solidjs.com) App that comes preconfigured with [Vite](https://vitejs.dev/),
-[TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/), [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and HMR.
+A starter template for [Tauri](https://tauri.app) + [Solid](https://solidjs.com) App that comes preconfigured with [Vite](https://vitejs.dev),
+[TypeScript](https://typescriptlang.org), [Tailwind CSS](https://tailwindcss.com), [ESLint](https://eslint.org), [Prettier](https://prettier.io) and HMR.
 
 ## Features
 
-- 🤩 [Tauri](https://www.tauri.studio/) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
+- 🤩 [Tauri](https://tauri.app) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
 
-- ⚡️ [Solid](https://solidjs.com) & [Vite](https://github.com/vitejs/vite) - Simple and performant reactivity for building user interfaces.
+- ⚡️ [Solid](https://solidjs.com) & [Vite](https://vitejs.dev) - Simple and performant reactivity for building user interfaces.
 
-- 🎨 [Tailwind CSS](https://github.com/windicss/windicss) - A utility-first CSS framework for rapid UI development.
+- 🎨 [Tailwind CSS](https://tailwindcss.com) - A utility-first CSS framework for rapid UI development.
 
-- 💪 [TypeScript](https://www.typescriptlang.org/) - it's JavaScript with syntax for types.
+- 💪 [TypeScript](https://www.typescriptlang.org) - it's JavaScript with syntax for types.
 
-- 👌 [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) - ESLint find problems in your code and Prettier format your code for an easy life.
+- 👌 [ESLint](https://eslint.org) + [Prettier](https://prettier.io) - ESLint find problems in your code and Prettier format your code for an easy life.
 
 <br>
 
@@ -34,7 +34,7 @@ npm install # or pnpm install or yarn install
 ```
 
 ### Note
-For use Tauri you need to Setup your environment following this [guide](https://tauri.app/guides/getting-started/prerequisites/)
+For use Tauri you need to Setup your environment following this [guide](https://tauri.app/guides/getting-started/prerequisites)
 
 ## Checklist
 
@@ -78,9 +78,9 @@ It correctly bundles Solid in production mode and optimizes the binary for the b
 🎉 Congratulations, your app is ready to be release!
 
 ## Custom App Icon
-To generate your custom app icon you can follow this [guide](https://tauri.app/guides/features/icons/).<br>
+To generate your custom app icon you can follow this [guide](https://tauri.app/guides/features/icons).<br>
 Your new app icons will be located in `src-tauri/icons/` and remeber to update the `icon` field in `src-tauri/tauri.conf.json` with all your new icon path name.<br>
 
 ## Customize the tauri.conf.json
 
-To modify and personalize your app, you need to modify `src-tauri/tauri.conf.json` by following this [guide](https://tauri.app/api/config/)
+To modify and personalize your app, you need to modify `src-tauri/tauri.conf.json` by following this [guide](https://tauri.app/api/config)
