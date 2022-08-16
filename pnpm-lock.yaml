@@ -17,7 +17,7 @@ specifiers:
   solid-js: 1.4.8
   tailwindcss: 3.1.8
   typescript: 4.7.4
-  vite: 3.0.7
+  vite: 3.0.8
   vite-plugin-solid: 2.3.0
   vite-plugin-tauri: 2.2.0
 
@@ -40,9 +40,9 @@ devDependencies:
   prettier: 2.7.1
   tailwindcss: 3.1.8
   typescript: 4.7.4
-  vite: 3.0.7
-  vite-plugin-solid: 2.3.0_solid-js@1.4.8+vite@3.0.7
-  vite-plugin-tauri: 2.2.0_hqm6emeobqfvpb56srnb75kqiy
+  vite: 3.0.8
+  vite-plugin-solid: 2.3.0_solid-js@1.4.8+vite@3.0.8
+  vite-plugin-tauri: 2.2.0_nqalyq53crr676mdpjk2zh7nlu
 
 packages:
 
@@ -2700,7 +2700,7 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite-plugin-solid/2.3.0_solid-js@1.4.8+vite@3.0.7:
+  /vite-plugin-solid/2.3.0_solid-js@1.4.8+vite@3.0.8:
     resolution: {integrity: sha512-N2sa54C3UZC2nN5vpj5o6YP+XdIAZW6n6xv8OasxNAcAJPFeZT7EOVvumL0V4c8hBz1yuYniMWdESY8807fVSg==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -2712,12 +2712,12 @@ packages:
       merge-anything: 5.0.2
       solid-js: 1.4.8
       solid-refresh: 0.4.1_solid-js@1.4.8
-      vite: 3.0.7
+      vite: 3.0.8
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri/2.2.0_hqm6emeobqfvpb56srnb75kqiy:
+  /vite-plugin-tauri/2.2.0_nqalyq53crr676mdpjk2zh7nlu:
     resolution: {integrity: sha512-MIWmOEH1hxt9VjenxGD0p1khIA2OzwwWodfmyBromU8xTDOias92beGdRQ1qggQa0K82wNultGXq6r6gXAldkw==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -2728,11 +2728,11 @@ packages:
       '@tauri-apps/cli': 1.0.5
       fast-glob: 3.2.11
       kolorist: 1.5.1
-      vite: 3.0.7
+      vite: 3.0.8
     dev: true
 
-  /vite/3.0.7:
-    resolution: {integrity: sha512-dILhvKba1mbP1wCezVQx/qhEK7/+jVn9ciadEcyKMMhZpsuAi/eWZfJRMkmYlkSFG7Qq9NvJbgFq4XOBxugJsA==}
+  /vite/3.0.8:
+    resolution: {integrity: sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
