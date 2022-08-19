@@ -17,7 +17,7 @@ specifiers:
   solid-js: 1.4.8
   tailwindcss: 3.1.8
   typescript: 4.7.4
-  vite: 3.0.8
+  vite: 3.0.9
   vite-plugin-solid: 2.3.0
   vite-plugin-tauri: 2.2.0
 
@@ -38,11 +38,11 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_i2cojdczqdiurzgttlwdgf764e
   postcss: 8.4.16
   prettier: 2.7.1
-  tailwindcss: 3.1.8
+  tailwindcss: 3.1.8_postcss@8.4.16
   typescript: 4.7.4
-  vite: 3.0.8
-  vite-plugin-solid: 2.3.0_solid-js@1.4.8+vite@3.0.8
-  vite-plugin-tauri: 2.2.0_nqalyq53crr676mdpjk2zh7nlu
+  vite: 3.0.9
+  vite-plugin-solid: 2.3.0_solid-js@1.4.8+vite@3.0.9
+  vite-plugin-tauri: 2.2.0_2adn5ihsqnxidqgpulnonbqfeq
 
 packages:
 
@@ -2592,10 +2592,12 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.1.8:
+  /tailwindcss/3.1.8_postcss@8.4.16:
     resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
+    peerDependencies:
+      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -2700,7 +2702,7 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite-plugin-solid/2.3.0_solid-js@1.4.8+vite@3.0.8:
+  /vite-plugin-solid/2.3.0_solid-js@1.4.8+vite@3.0.9:
     resolution: {integrity: sha512-N2sa54C3UZC2nN5vpj5o6YP+XdIAZW6n6xv8OasxNAcAJPFeZT7EOVvumL0V4c8hBz1yuYniMWdESY8807fVSg==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -2712,12 +2714,12 @@ packages:
       merge-anything: 5.0.2
       solid-js: 1.4.8
       solid-refresh: 0.4.1_solid-js@1.4.8
-      vite: 3.0.8
+      vite: 3.0.9
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri/2.2.0_nqalyq53crr676mdpjk2zh7nlu:
+  /vite-plugin-tauri/2.2.0_2adn5ihsqnxidqgpulnonbqfeq:
     resolution: {integrity: sha512-MIWmOEH1hxt9VjenxGD0p1khIA2OzwwWodfmyBromU8xTDOias92beGdRQ1qggQa0K82wNultGXq6r6gXAldkw==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -2728,11 +2730,11 @@ packages:
       '@tauri-apps/cli': 1.0.5
       fast-glob: 3.2.11
       kolorist: 1.5.1
-      vite: 3.0.8
+      vite: 3.0.9
     dev: true
 
-  /vite/3.0.8:
-    resolution: {integrity: sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==}
+  /vite/3.0.9:
+    resolution: {integrity: sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
