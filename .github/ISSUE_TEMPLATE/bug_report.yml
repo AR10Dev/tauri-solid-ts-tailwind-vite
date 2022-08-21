@@ -1,0 +1,81 @@
+name: "\U0001F41B Bug Report"
+title: '[bug] '
+description: Report an issue or possible bug
+labels: ['type: bug', 'status: needs triage']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to file a bug report! Please fill out this form as completely as possible.
+        Please search for [existing issues](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite/issues?q=is%3Aissue) about this problem first.
+
+        ##  Quick Checklist
+        ✅ `rustc` and all relevant packages are up to date.
+        ✅ I am using a version of Node that supports ESM (`v14.18.0+`, or `v16.12.0+`).
+        ✅ It's an issue with this template and not something else I am using.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: Provide a clear and concise description of the challenge you are running into.
+      placeholder: Bug description
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce the Bug or Issue
+      description: Describe the steps we have to take to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Provide a clear and concise description of what you expected to happen.
+      placeholder: |
+        As a user, I expected ___ behavior but i am seeing ___
+    validations:
+      required: true
+
+  - type: textarea
+    id: info
+    attributes:
+      label: Platform and versions
+      description: "Output of `npm run tauri info` or `cargo tauri info`"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots_or_videos
+    attributes:
+      label: Screenshots or Videos
+      description: |
+        If applicable, add screenshots or a video to help explain your problem.
+        For more information on the supported file image/file types and the file size limits, please refer
+        to the following link: https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files
+      placeholder: |
+        You can drag your video or image files inside of this editor ↓
+  
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+
+  - type: checkboxes
+    id: will-pr
+    attributes:
+      label: Participation
+      options:
+        - label:  I am willing to submit a pull request for this issue.
+          required: false
