@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-prettier: 4.2.1
   postcss: 8.4.16
   prettier: 2.7.1
-  solid-js: 1.4.8
+  solid-js: 1.5.1
   tailwindcss: 3.1.8
   typescript: 4.8.2
   vite: 3.0.9
@@ -24,7 +24,7 @@ specifiers:
 dependencies:
   '@tauri-apps/api': 1.0.2
   '@tauri-apps/cli': 1.0.5
-  solid-js: 1.4.8
+  solid-js: 1.5.1
 
 devDependencies:
   '@types/node': 18.6.2
@@ -41,7 +41,7 @@ devDependencies:
   tailwindcss: 3.1.8_postcss@8.4.16
   typescript: 4.8.2
   vite: 3.0.9
-  vite-plugin-solid: 2.3.0_solid-js@1.4.8+vite@3.0.9
+  vite-plugin-solid: 2.3.0_solid-js@1.5.1+vite@3.0.9
   vite-plugin-tauri: 2.2.0_2adn5ihsqnxidqgpulnonbqfeq
 
 packages:
@@ -1064,6 +1064,9 @@ packages:
     dependencies:
       css-tree: 1.1.3
     dev: true
+
+  /csstype/3.1.0:
+    resolution: {integrity: sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==}
 
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
@@ -2507,10 +2510,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js/1.4.8:
-    resolution: {integrity: sha512-XErZdnnYYXF7OwGSUAPcua2y5/ELB/c53zFCpWiEGqxTNoH1iQghzI8EsHJXk06sNn+Z/TGhb8bPDNNGSgimag==}
+  /solid-js/1.5.1:
+    resolution: {integrity: sha512-Y6aKystIxnrB0quV5nhqNuJV+l2Fk3/PQy1mMya/bzxlGiMHAym7v1NaqEgqDIvctbkxOi5dBj0ER/ewrH060g==}
+    dependencies:
+      csstype: 3.1.0
 
-  /solid-refresh/0.4.1_solid-js@1.4.8:
+  /solid-refresh/0.4.1_solid-js@1.5.1:
     resolution: {integrity: sha512-v3tD/OXQcUyXLrWjPW1dXZyeWwP7/+GQNs8YTL09GBq+5FguA6IejJWUvJDrLIA4M0ho9/5zK2e9n+uy+4488g==}
     peerDependencies:
       solid-js: ^1.3
@@ -2518,7 +2523,7 @@ packages:
       '@babel/generator': 7.18.10
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.18.10
-      solid-js: 1.4.8
+      solid-js: 1.5.1
     dev: true
 
   /source-map-js/1.0.2:
@@ -2702,7 +2707,7 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite-plugin-solid/2.3.0_solid-js@1.4.8+vite@3.0.9:
+  /vite-plugin-solid/2.3.0_solid-js@1.5.1+vite@3.0.9:
     resolution: {integrity: sha512-N2sa54C3UZC2nN5vpj5o6YP+XdIAZW6n6xv8OasxNAcAJPFeZT7EOVvumL0V4c8hBz1yuYniMWdESY8807fVSg==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -2712,8 +2717,8 @@ packages:
       '@babel/preset-typescript': 7.18.6_@babel+core@7.18.10
       babel-preset-solid: 1.4.8_@babel+core@7.18.10
       merge-anything: 5.0.2
-      solid-js: 1.4.8
-      solid-refresh: 0.4.1_solid-js@1.4.8
+      solid-js: 1.5.1
+      solid-refresh: 0.4.1_solid-js@1.5.1
       vite: 3.0.9
     transitivePeerDependencies:
       - supports-color
