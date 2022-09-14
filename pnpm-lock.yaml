@@ -6,7 +6,7 @@ specifiers:
   '@types/node': 18.6.2
   '@typescript-eslint/eslint-plugin': 5.37.0
   '@typescript-eslint/parser': 5.37.0
-  autoprefixer: 10.4.10
+  autoprefixer: 10.4.11
   cssnano: 5.1.13
   cssnano-preset-advanced: 5.3.8
   eslint: 8.23.1
@@ -30,7 +30,7 @@ devDependencies:
   '@types/node': 18.6.2
   '@typescript-eslint/eslint-plugin': 5.37.0_22c5fnooleyfkzrkkgdmel5kmi
   '@typescript-eslint/parser': 5.37.0_irgkl5vooow2ydyo6aokmferha
-  autoprefixer: 10.4.10_postcss@8.4.16
+  autoprefixer: 10.4.11_postcss@8.4.16
   cssnano: 5.1.13_postcss@8.4.16
   cssnano-preset-advanced: 5.3.8_postcss@8.4.16
   eslint: 8.23.1
@@ -782,8 +782,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /autoprefixer/10.4.10_postcss@8.4.16:
-    resolution: {integrity: sha512-nMaiDARyp1e74c8IeAXkr+BmFKa8By4Zak7tyaNPF09Iu39WFpNXOWrVirmXjKr+5cOyERwvtbMOLYz6iBJYgQ==}
+  /autoprefixer/10.4.11_postcss@8.4.16:
+    resolution: {integrity: sha512-5lHp6DgRodxlBLSkzHOTcufWFflH1ewfy2hvFQyjrblBFlP/0Yh4O/Wrg4ow8WRlN3AAUFFLAQwX8hTptzqVHg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1005,7 +1005,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      autoprefixer: 10.4.10_postcss@8.4.16
+      autoprefixer: 10.4.11_postcss@8.4.16
       cssnano-preset-default: 5.2.12_postcss@8.4.16
       postcss: 8.4.16
       postcss-discard-unused: 5.1.0_postcss@8.4.16
