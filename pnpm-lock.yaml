@@ -18,7 +18,7 @@ specifiers:
   tailwindcss: 3.1.8
   typescript: 4.8.3
   vite: 3.1.1
-  vite-plugin-solid: 2.3.1
+  vite-plugin-solid: 2.3.2
   vite-plugin-tauri: 2.2.0
 
 dependencies:
@@ -41,7 +41,7 @@ devDependencies:
   tailwindcss: 3.1.8_postcss@8.4.16
   typescript: 4.8.3
   vite: 3.1.1
-  vite-plugin-solid: 2.3.1_solid-js@1.5.5+vite@3.1.1
+  vite-plugin-solid: 2.3.2_solid-js@1.5.5+vite@3.1.1
   vite-plugin-tauri: 2.2.0_pm5xekfju7lfuurijkpyqirp3y
 
 packages:
@@ -2723,8 +2723,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-solid/2.3.1_solid-js@1.5.5+vite@3.1.1:
-    resolution: {integrity: sha512-4Z4ymhXmfjtGWC9myDOWdkb8zcjstiQIxB2MnCbB8R6EB/JrW7HOCajDVRHVvdfmi5/DJmwBENsAX6icE5YNHg==}
+  /vite-plugin-solid/2.3.2_solid-js@1.5.5+vite@3.1.1:
+    resolution: {integrity: sha512-Y7dqloWjHMKcRLnAY+gg6iw3tkm83N4abtMc8ZXkSHQCBy0LYCNYUfIPxnF/VxnBbN9EG1n5noZ/VbkS0WMIHQ==}
     peerDependencies:
       solid-js: ^1.3.17
       vite: ^3.0.0
