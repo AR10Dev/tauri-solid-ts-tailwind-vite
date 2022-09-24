@@ -19,7 +19,7 @@
     "autoprefixer": "10.4.12",
     "cssnano": "5.1.13",
     "cssnano-preset-advanced": "5.3.8",
-    "eslint": "8.23.1",
+    "eslint": "8.24.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "postcss": "8.4.16",
