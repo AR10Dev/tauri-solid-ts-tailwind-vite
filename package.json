@@ -28,7 +28,7 @@
     "typescript": "4.8.4",
     "vite": "3.1.4",
     "vite-plugin-solid": "2.3.9",
-    "vite-plugin-tauri": "2.3.0"
+    "vite-plugin-tauri": "3.0.2"
   },
   "dependencies": {
     "@tauri-apps/api": "1.1.0",

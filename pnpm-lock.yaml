@@ -19,7 +19,7 @@ specifiers:
   typescript: 4.8.4
   vite: 3.1.4
   vite-plugin-solid: 2.3.9
-  vite-plugin-tauri: 2.3.0
+  vite-plugin-tauri: 3.0.2
 
 dependencies:
   '@tauri-apps/api': 1.1.0
@@ -42,7 +42,7 @@ devDependencies:
   typescript: 4.8.4
   vite: 3.1.4
   vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.4
-  vite-plugin-tauri: 2.3.0_wj4bzcwei6agjnyr5grjaghjwm
+  vite-plugin-tauri: 3.0.2_wj4bzcwei6agjnyr5grjaghjwm
 
 packages:
 
@@ -1821,10 +1821,6 @@ packages:
     hasBin: true
     dev: true
 
-  /kolorist/1.6.0:
-    resolution: {integrity: sha512-dLkz37Ab97HWMx9KTes3Tbi3D1ln9fCAy2zr2YVExJasDRPGRaKcoE4fycWNtnCAJfjFqe0cnY+f8KT2JePEXQ==}
-    dev: true
-
   /levn/0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -2746,17 +2742,15 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri/2.3.0_wj4bzcwei6agjnyr5grjaghjwm:
-    resolution: {integrity: sha512-WnSzfCNK7yvjcD6y9/tKjqNapqD58OUWfFhDExTWBp1wCmBindHxxpuOOAmWwSpemh5O+1ng3IrY9HTrC8A8dA==}
+  /vite-plugin-tauri/3.0.2_wj4bzcwei6agjnyr5grjaghjwm:
+    resolution: {integrity: sha512-nYyuf3mkeqsVRlZJ/IRfsIaA8Y0DYHiQAHLz/uBywN9/JT5+KPSZ+tnme2MPvtevFa8Yf3mYO4nZEQemeqc/0Q==}
     engines: {node: '>=14.6.0'}
-    hasBin: true
     peerDependencies:
-      '@tauri-apps/cli': ^1.0.0
+      '@tauri-apps/cli': '>= 1'
       vite: '>= 2'
     dependencies:
       '@tauri-apps/cli': 1.1.1
       fast-glob: 3.2.12
-      kolorist: 1.6.0
       vite: 3.1.4
     dev: true
 
