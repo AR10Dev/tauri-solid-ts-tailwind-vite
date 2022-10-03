@@ -17,10 +17,10 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
         
-      - name: Install webkit2gtk
+      - name: Update local Rust toolchain
         run: |
           sudo apt-get update
-          sudo apt-get install -y webkit2gtk-4.0
+          rustup update
         
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
@@ -37,8 +37,4 @@ jobs:
         run: pnpm install
 
       - name: Build 🔧
-        uses: tauri-apps/tauri-action@v0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tauriScript: 'pnpm build:tauri'
+        run: pnpm build:tauri
