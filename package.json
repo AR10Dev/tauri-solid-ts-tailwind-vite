@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "author": "AR10",
   "scripts": {
-    "dev": "vite-tauri dev",
-    "build": "vite-tauri build",
-    "build:vite": "vite build",
+    "dev": "vite dev",
+    "build": "vite build",
     "serve": "vite preview",
     "eslint": "eslint src",
     "eslint:fix": "eslint src --fix",
