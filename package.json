@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "serve": "vite preview",
+    "dev:tauri": "vite --config vite.config.tauri.ts",
+    "build:tauri": "vite build --config vite.config.tauri.ts",
+    "preview": "vite preview",
     "eslint": "eslint src",
     "eslint:fix": "eslint src --fix"
   },
