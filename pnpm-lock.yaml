@@ -17,7 +17,7 @@ specifiers:
   solid-js: 1.5.7
   tailwindcss: 3.1.8
   typescript: 4.8.4
-  vite: 3.1.5
+  vite: 3.1.6
   vite-plugin-solid: 2.3.9
   vite-plugin-tauri: 2.3.0
 
@@ -40,9 +40,9 @@ devDependencies:
   prettier: 2.7.1
   tailwindcss: 3.1.8_postcss@8.4.17
   typescript: 4.8.4
-  vite: 3.1.5
-  vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.5
-  vite-plugin-tauri: 2.3.0_ecng5bot3aas74ck3expekfzcu
+  vite: 3.1.6
+  vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.6
+  vite-plugin-tauri: 2.3.0_3z5e53a6jaj53clif6udgwukr4
 
 packages:
 
@@ -2739,7 +2739,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-solid/2.3.9_solid-js@1.5.7+vite@3.1.5:
+  /vite-plugin-solid/2.3.9_solid-js@1.5.7+vite@3.1.6:
     resolution: {integrity: sha512-+lprsYgt9DVNp0kbDj2d2HWAPI13L8ff5xslk9SjiPBcsY/YUZ/1Wj0J/Oj5aiVAhwfPm8IcM3bzyHJUPlmc8w==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -2751,12 +2751,12 @@ packages:
       merge-anything: 5.0.4
       solid-js: 1.5.7
       solid-refresh: 0.4.1_solid-js@1.5.7
-      vite: 3.1.5
+      vite: 3.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri/2.3.0_ecng5bot3aas74ck3expekfzcu:
+  /vite-plugin-tauri/2.3.0_3z5e53a6jaj53clif6udgwukr4:
     resolution: {integrity: sha512-WnSzfCNK7yvjcD6y9/tKjqNapqD58OUWfFhDExTWBp1wCmBindHxxpuOOAmWwSpemh5O+1ng3IrY9HTrC8A8dA==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -2767,11 +2767,11 @@ packages:
       '@tauri-apps/cli': 1.1.1
       fast-glob: 3.2.12
       kolorist: 1.6.0
-      vite: 3.1.5
+      vite: 3.1.6
     dev: true
 
-  /vite/3.1.5:
-    resolution: {integrity: sha512-V4Avke0b7h2zTWVJf8vq6TE3aH061NQ3b1ixHQyqdoE/5HIVsxVLCyTLjJtHVcsJ5fIKSHvOtflWpgavHS8RPw==}
+  /vite/3.1.6:
+    resolution: {integrity: sha512-qMXIwnehvvcK5XfJiXQUiTxoYAEMKhM+jqCY6ZSTKFBKu1hJnAKEzP3AOcnTerI0cMZYAaJ4wpW1wiXLMDt4mA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
