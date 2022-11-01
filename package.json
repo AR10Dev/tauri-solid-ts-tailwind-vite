@@ -2,14 +2,15 @@
   "name": "tauri-solid-tailwind-ts-vite-template",
   "version": "1.0.0",
   "author": "AR10",
+  "type": "module",
   "scripts": {
-    "dev": "vite-tauri dev",
-    "build": "vite-tauri build",
-    "build:vite": "vite build",
-    "serve": "vite preview",
+    "dev": "vite dev",
+    "build": "vite build",
+    "dev:tauri": "vite --config vite.config.tauri.ts",
+    "build:tauri": "vite build --config vite.config.tauri.ts",
+    "preview": "vite preview",
     "eslint": "eslint src",
-    "eslint:fix": "eslint src --fix",
-    "tauri": "tauri"
+    "eslint:fix": "eslint src --fix"
   },
   "license": "MIT",
   "devDependencies": {
@@ -28,7 +29,7 @@
     "typescript": "4.8.4",
     "vite": "3.2.2",
     "vite-plugin-solid": "2.3.10",
-    "vite-plugin-tauri": "2.3.0"
+    "vite-plugin-tauri": "3.0.2"
   },
   "dependencies": {
     "@tauri-apps/api": "1.1.0",
