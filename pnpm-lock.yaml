@@ -18,7 +18,7 @@ specifiers:
   tailwindcss: 3.2.1
   typescript: 4.8.4
   vite: 3.2.2
-  vite-plugin-solid: 2.3.10
+  vite-plugin-solid: 2.4.0
   vite-plugin-tauri: 3.0.2
 
 dependencies:
@@ -41,8 +41,8 @@ devDependencies:
   tailwindcss: 3.2.1_postcss@8.4.18
   typescript: 4.8.4
   vite: 3.2.2
-  vite-plugin-solid: 2.3.10_solid-js@1.6.1+vite@3.2.2
-  vite-plugin-tauri: 2.3.0_rqlofwo4uqmqld4jipq4bouw7i
+  vite-plugin-solid: 2.4.0_solid-js@1.6.1+vite@3.2.2
+  vite-plugin-tauri: 3.0.2_rqlofwo4uqmqld4jipq4bouw7i
 
 packages:
 
@@ -2737,8 +2737,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-solid/2.3.10_solid-js@1.6.1+vite@3.2.2:
-    resolution: {integrity: sha512-5jMF+QFk2TQaPLlDl7LvZZ99D4kO1X+rD9LR78p9sx9O+XisVSQaHFPLrCsyW/lXuBwub+ox/pNaZdCUZJwd3Q==}
+  /vite-plugin-solid/2.4.0_solid-js@1.6.1+vite@3.2.2:
+    resolution: {integrity: sha512-Rr+t2sr9TWIvH16yzBZzx6O9YSpYAvcwKUMPqbi/4iU3mRumXQ4O10i1XGtQIynC7U3XwJsMzAJigDFGbiJBiw==}
     peerDependencies:
       solid-js: ^1.3.17
       vite: ^3.0.0
@@ -2750,11 +2750,12 @@ packages:
       solid-js: 1.6.1
       solid-refresh: 0.4.1_solid-js@1.6.1
       vite: 3.2.2
+      vitefu: 0.1.1_vite@3.2.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri/3.0.2_wj4bzcwei6agjnyr5grjaghjwm:
+  /vite-plugin-tauri/3.0.2_rqlofwo4uqmqld4jipq4bouw7i:
     resolution: {integrity: sha512-nYyuf3mkeqsVRlZJ/IRfsIaA8Y0DYHiQAHLz/uBywN9/JT5+KPSZ+tnme2MPvtevFa8Yf3mYO4nZEQemeqc/0Q==}
     engines: {node: '>=14.6.0'}
     peerDependencies:
@@ -2763,7 +2764,6 @@ packages:
     dependencies:
       '@tauri-apps/cli': 1.1.1
       fast-glob: 3.2.12
-      kolorist: 1.6.0
       vite: 3.2.2
     dev: true
 
@@ -2795,6 +2795,17 @@ packages:
       rollup: 2.79.1
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /vitefu/0.1.1_vite@3.2.2:
+    resolution: {integrity: sha512-HClD14fjMJ+NQgXBqT3dC3RdO/+Chayil+cCPYZKY3kT+KcJomKzrdgzfCHJkIL2L0OAY+VPvrSW615iPtc7ag==}
+    peerDependencies:
+      vite: ^3.0.0
+    peerDependenciesMeta:
+      vite:
+        optional: true
+    dependencies:
+      vite: 3.2.2
     dev: true
 
   /which/2.0.2:
