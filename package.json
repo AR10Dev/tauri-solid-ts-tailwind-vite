@@ -32,8 +32,8 @@
     "vite-plugin-tauri": "3.0.2"
   },
   "dependencies": {
-    "@tauri-apps/api": "1.1.0",
-    "@tauri-apps/cli": "1.1.1",
+    "@tauri-apps/api": "1.2.0",
+    "@tauri-apps/cli": "1.2.0",
     "solid-js": "1.6.1"
   }
 }
