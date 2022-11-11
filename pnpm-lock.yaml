@@ -15,7 +15,7 @@ specifiers:
   postcss: 8.4.19
   prettier: 2.7.1
   solid-js: 1.6.2
-  tailwindcss: 3.2.3
+  tailwindcss: 3.2.4
   typescript: 4.8.4
   vite: 3.2.3
   vite-plugin-solid: 2.4.0
@@ -38,7 +38,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_v7o5sx5x3wbs57ifz6wc4f76we
   postcss: 8.4.19
   prettier: 2.7.1
-  tailwindcss: 3.2.3_postcss@8.4.19
+  tailwindcss: 3.2.4_postcss@8.4.19
   typescript: 4.8.4
   vite: 3.2.3_@types+node@18.11.9
   vite-plugin-solid: 2.4.0_solid-js@1.6.2+vite@3.2.3
@@ -2630,8 +2630,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.2.3_postcss@8.4.19:
-    resolution: {integrity: sha512-Xt9D4PK4zuuQCEB8bwK9JUCKmTgUwyac/6b0/42Vqhgl6YJkep+Wf5wq+5uXYfmrupdAD0YY2NY1hyZp1HjRrg==}
+  /tailwindcss/3.2.4_postcss@8.4.19:
+    resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
