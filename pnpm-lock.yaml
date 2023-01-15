@@ -19,7 +19,7 @@ specifiers:
   typescript: 4.9.4
   vite: 4.0.4
   vite-plugin-solid: 2.5.0
-  vite-plugin-tauri: 3.0.2
+  vite-plugin-tauri: 3.1.0
 
 dependencies:
   '@tauri-apps/api': 1.2.0
@@ -42,7 +42,7 @@ devDependencies:
   typescript: 4.9.4
   vite: 4.0.4_@types+node@18.11.18
   vite-plugin-solid: 2.5.0_solid-js@1.6.9+vite@4.0.4
-  vite-plugin-tauri: 3.0.2_5qaktheppwl6turg7p77joxu4y
+  vite-plugin-tauri: 3.1.0_5qaktheppwl6turg7p77joxu4y
 
 packages:
 
@@ -2759,8 +2759,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri/3.0.2_5qaktheppwl6turg7p77joxu4y:
-    resolution: {integrity: sha512-nYyuf3mkeqsVRlZJ/IRfsIaA8Y0DYHiQAHLz/uBywN9/JT5+KPSZ+tnme2MPvtevFa8Yf3mYO4nZEQemeqc/0Q==}
+  /vite-plugin-tauri/3.1.0_5qaktheppwl6turg7p77joxu4y:
+    resolution: {integrity: sha512-jdDabGG/IKnhACRATnQTCD63tcfPVUvOsV4jjQIKMj07PjEUySVqrG7gpxZYqQXUp7TlM8C6lR8Doiwj0RX1XQ==}
     engines: {node: '>=14.6.0'}
     peerDependencies:
       '@tauri-apps/cli': '>= 1'
