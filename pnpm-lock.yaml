@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@tauri-apps/api': 1.2.0
   '@tauri-apps/cli': 1.2.3
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   '@typescript-eslint/eslint-plugin': 5.55.0
   '@typescript-eslint/parser': 5.55.0
   autoprefixer: 10.4.14
@@ -27,7 +27,7 @@ dependencies:
   solid-js: 1.6.14
 
 devDependencies:
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   '@typescript-eslint/eslint-plugin': 5.55.0_342y7v4tc7ytrrysmit6jo4wri
   '@typescript-eslint/parser': 5.55.0_vgl77cfdswitgr47lm5swmv43m
   autoprefixer: 10.4.14_postcss@8.4.21
@@ -40,7 +40,7 @@ devDependencies:
   prettier: 2.8.4
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 4.9.5
-  vite: 4.1.4_@types+node@18.15.2
+  vite: 4.1.4_@types+node@18.15.3
   vite-plugin-solid: 2.6.1_solid-js@1.6.14+vite@4.1.4
   vite-plugin-tauri: 3.1.0_g6b4tcyuublqcihr4bfy5evfsa
 
@@ -806,8 +806,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node/18.15.2:
-    resolution: {integrity: sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==}
+  /@types/node/18.15.3:
+    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
     dev: true
 
   /@types/semver/7.3.13:
@@ -2784,7 +2784,7 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.6.14
       solid-refresh: 0.5.0_solid-js@1.6.14
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
       vitefu: 0.2.4_vite@4.1.4
     transitivePeerDependencies:
       - supports-color
@@ -2799,10 +2799,10 @@ packages:
     dependencies:
       '@tauri-apps/cli': 1.2.3
       fast-glob: 3.2.12
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
     dev: true
 
-  /vite/4.1.4_@types+node@18.15.2:
+  /vite/4.1.4_@types+node@18.15.3:
     resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2827,7 +2827,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.15.2
+      '@types/node': 18.15.3
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
@@ -2844,7 +2844,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
     dev: true
 
   /which/2.0.2:
