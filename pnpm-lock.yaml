@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-prettier: 4.2.1
   postcss: 8.4.21
   prettier: 2.8.4
-  solid-js: 1.6.14
+  solid-js: 1.6.15
   tailwindcss: 3.2.7
   typescript: 4.9.5
   vite: 4.1.4
@@ -24,7 +24,7 @@ specifiers:
 dependencies:
   '@tauri-apps/api': 1.2.0
   '@tauri-apps/cli': 1.2.3
-  solid-js: 1.6.14
+  solid-js: 1.6.15
 
 devDependencies:
   '@types/node': 18.15.3
@@ -41,7 +41,7 @@ devDependencies:
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 4.9.5
   vite: 4.1.4_@types+node@18.15.3
-  vite-plugin-solid: 2.6.1_solid-js@1.6.14+vite@4.1.4
+  vite-plugin-solid: 2.6.1_solid-js@1.6.15+vite@4.1.4
   vite-plugin-tauri: 3.1.0_g6b4tcyuublqcihr4bfy5evfsa
 
 packages:
@@ -2577,12 +2577,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js/1.6.14:
-    resolution: {integrity: sha512-9SSpGWZqzq8n/JhIt2PsYzLreG4PySmAexLnRM386oMeG5oSWa9QIRoiok45rLNJg148USEfI9wlkJkMrA2qGg==}
+  /solid-js/1.6.15:
+    resolution: {integrity: sha512-xEuMUIdDf4YRFT4i3XEJCNg4Y21lZiWWPSEqj0R3UnLLpENGJVXkqpmbIyRU5CuMImKPIEu5CYgmFKL7Npfe1A==}
     dependencies:
       csstype: 3.1.1
 
-  /solid-refresh/0.5.0_solid-js@1.6.14:
+  /solid-refresh/0.5.0_solid-js@1.6.15:
     resolution: {integrity: sha512-kBsHSjqBUMXD2I7cU/batNE5WlXGiB5Otob9JDx4Zl5+Vt+a5naGxjPf81fg/c4lh++IdX2GF5CORxEcVzyTgg==}
     peerDependencies:
       solid-js: ^1.3
@@ -2590,7 +2590,7 @@ packages:
       '@babel/generator': 7.20.14
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.20.7
-      solid-js: 1.6.14
+      solid-js: 1.6.15
     dev: true
 
   /source-map-js/1.0.2:
@@ -2771,7 +2771,7 @@ packages:
     resolution: {integrity: sha512-T1ab131NkP3BfXB7KUSgV7Rhu81R2id+L6NaJ7NypAAG5iV6gXnPpQE5RK1fvb+3JYsPTL+ihWna5sr5RN9gaQ==}
     dev: true
 
-  /vite-plugin-solid/2.6.1_solid-js@1.6.14+vite@4.1.4:
+  /vite-plugin-solid/2.6.1_solid-js@1.6.15+vite@4.1.4:
     resolution: {integrity: sha512-/khM/ha3B5/pTWQWVJd/0n6ODPIrOcajwhbrD8Gnv37XmJJssu+KA8ssN73raMIicf2eiQKiTAV39w7dSl4Irg==}
     peerDependencies:
       solid-js: ^1.3.17 || ^1.4.0 || ^1.5.0 || ^1.6.0
@@ -2782,8 +2782,8 @@ packages:
       '@types/babel__core': 7.20.0
       babel-preset-solid: 1.6.10_@babel+core@7.20.12
       merge-anything: 5.1.4
-      solid-js: 1.6.14
-      solid-refresh: 0.5.0_solid-js@1.6.14
+      solid-js: 1.6.15
+      solid-refresh: 0.5.0_solid-js@1.6.15
       vite: 4.1.4_@types+node@18.15.3
       vitefu: 0.2.4_vite@4.1.4
     transitivePeerDependencies:
