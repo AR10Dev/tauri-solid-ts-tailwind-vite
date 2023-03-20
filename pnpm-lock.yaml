@@ -10,7 +10,7 @@ specifiers:
   cssnano: 5.1.15
   cssnano-preset-advanced: 5.3.10
   eslint: 8.36.0
-  eslint-config-prettier: 8.7.0
+  eslint-config-prettier: 8.8.0
   eslint-plugin-prettier: 4.2.1
   postcss: 8.4.21
   prettier: 2.8.5
@@ -34,8 +34,8 @@ devDependencies:
   cssnano: 5.1.15_postcss@8.4.21
   cssnano-preset-advanced: 5.3.10_postcss@8.4.21
   eslint: 8.36.0
-  eslint-config-prettier: 8.7.0_eslint@8.36.0
-  eslint-plugin-prettier: 4.2.1_e4jq4ivnnnwcsomlcyj2qoljy4
+  eslint-config-prettier: 8.8.0_eslint@8.36.0
+  eslint-plugin-prettier: 4.2.1_i2qmqyy4fgpgq2h7f6vnil3crq
   postcss: 8.4.21
   prettier: 2.8.5
   tailwindcss: 3.2.7_postcss@8.4.21
@@ -1458,8 +1458,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.7.0_eslint@8.36.0:
-    resolution: {integrity: sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==}
+  /eslint-config-prettier/8.8.0_eslint@8.36.0:
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1467,7 +1467,7 @@ packages:
       eslint: 8.36.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_e4jq4ivnnnwcsomlcyj2qoljy4:
+  /eslint-plugin-prettier/4.2.1_i2qmqyy4fgpgq2h7f6vnil3crq:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1479,7 +1479,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.36.0
-      eslint-config-prettier: 8.7.0_eslint@8.36.0
+      eslint-config-prettier: 8.8.0_eslint@8.36.0
       prettier: 2.8.5
       prettier-linter-helpers: 1.0.0
     dev: true
