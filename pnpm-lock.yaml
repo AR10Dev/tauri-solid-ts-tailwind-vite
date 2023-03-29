@@ -13,8 +13,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 18.15.10
-    version: 18.15.10
+    specifier: 18.15.11
+    version: 18.15.11
   '@typescript-eslint/eslint-plugin':
     specifier: 5.57.0
     version: 5.57.0(@typescript-eslint/parser@5.57.0)(eslint@8.36.0)(typescript@5.0.2)
@@ -53,7 +53,7 @@ devDependencies:
     version: 5.0.2
   vite:
     specifier: 4.2.1
-    version: 4.2.1(@types/node@18.15.10)
+    version: 4.2.1(@types/node@18.15.11)
   vite-plugin-solid:
     specifier: 2.6.1
     version: 2.6.1(solid-js@1.6.16)(vite@4.2.1)
@@ -823,8 +823,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node@18.15.10:
-    resolution: {integrity: sha512-9avDaQJczATcXgfmMAW3MIWArOO7A+m90vuCFLr8AotWf8igO/mRoYukrk2cqZVtv38tHs33retzHEilM7FpeQ==}
+  /@types/node@18.15.11:
+    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
     dev: true
 
   /@types/semver@7.3.13:
@@ -2837,7 +2837,7 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.6.16
       solid-refresh: 0.5.0(solid-js@1.6.16)
-      vite: 4.2.1(@types/node@18.15.10)
+      vite: 4.2.1(@types/node@18.15.11)
       vitefu: 0.2.4(vite@4.2.1)
     transitivePeerDependencies:
       - supports-color
@@ -2852,10 +2852,10 @@ packages:
     dependencies:
       '@tauri-apps/cli': 1.2.3
       fast-glob: 3.2.12
-      vite: 4.2.1(@types/node@18.15.10)
+      vite: 4.2.1(@types/node@18.15.11)
     dev: true
 
-  /vite@4.2.1(@types/node@18.15.10):
+  /vite@4.2.1(@types/node@18.15.11):
     resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2880,7 +2880,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.15.10
+      '@types/node': 18.15.11
       esbuild: 0.17.12
       postcss: 8.4.21
       resolve: 1.22.1
@@ -2897,7 +2897,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.2.1(@types/node@18.15.10)
+      vite: 4.2.1(@types/node@18.15.11)
     dev: true
 
   /which@2.0.2:
