@@ -8,8 +8,8 @@ dependencies:
     specifier: 1.2.3
     version: 1.2.3
   solid-js:
-    specifier: 1.7.1
-    version: 1.7.1
+    specifier: 1.7.2
+    version: 1.7.2
 
 devDependencies:
   '@types/node':
@@ -56,7 +56,7 @@ devDependencies:
     version: 4.2.1(@types/node@18.15.11)
   vite-plugin-solid:
     specifier: 2.6.1
-    version: 2.6.1(solid-js@1.7.1)(vite@4.2.1)
+    version: 2.6.1(solid-js@1.7.2)(vite@4.2.1)
   vite-plugin-tauri:
     specifier: 3.1.0
     version: 3.1.0(@tauri-apps/cli@1.2.3)(vite@4.2.1)
@@ -2614,13 +2614,13 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js@1.7.1:
-    resolution: {integrity: sha512-G7wPaRsxY+Mr6GTVSHIqrpHoJNM5YHX6V/X03mPo9RmsuVZU6ZA2O+jVJty6mOyGME24WR30E55L0IQsxxO/vg==}
+  /solid-js@1.7.2:
+    resolution: {integrity: sha512-01f8GIc+HTTlfDXtK+TFku3AllHyJ3hNsIpxM2qpObRP4VbEGVIP6VbULnThPlpse+J1y/I/1N9QeQ9MNkE8Ow==}
     dependencies:
       csstype: 3.1.1
       seroval: 0.5.1
 
-  /solid-refresh@0.5.0(solid-js@1.7.1):
+  /solid-refresh@0.5.0(solid-js@1.7.2):
     resolution: {integrity: sha512-kBsHSjqBUMXD2I7cU/batNE5WlXGiB5Otob9JDx4Zl5+Vt+a5naGxjPf81fg/c4lh++IdX2GF5CORxEcVzyTgg==}
     peerDependencies:
       solid-js: ^1.3
@@ -2628,7 +2628,7 @@ packages:
       '@babel/generator': 7.20.14
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.20.7
-      solid-js: 1.7.1
+      solid-js: 1.7.2
     dev: true
 
   /source-map-js@1.0.2:
@@ -2829,7 +2829,7 @@ packages:
     resolution: {integrity: sha512-T1ab131NkP3BfXB7KUSgV7Rhu81R2id+L6NaJ7NypAAG5iV6gXnPpQE5RK1fvb+3JYsPTL+ihWna5sr5RN9gaQ==}
     dev: true
 
-  /vite-plugin-solid@2.6.1(solid-js@1.7.1)(vite@4.2.1):
+  /vite-plugin-solid@2.6.1(solid-js@1.7.2)(vite@4.2.1):
     resolution: {integrity: sha512-/khM/ha3B5/pTWQWVJd/0n6ODPIrOcajwhbrD8Gnv37XmJJssu+KA8ssN73raMIicf2eiQKiTAV39w7dSl4Irg==}
     peerDependencies:
       solid-js: ^1.3.17 || ^1.4.0 || ^1.5.0 || ^1.6.0
@@ -2840,8 +2840,8 @@ packages:
       '@types/babel__core': 7.20.0
       babel-preset-solid: 1.6.10(@babel/core@7.20.12)
       merge-anything: 5.1.4
-      solid-js: 1.7.1
-      solid-refresh: 0.5.0(solid-js@1.7.1)
+      solid-js: 1.7.2
+      solid-refresh: 0.5.0(solid-js@1.7.2)
       vite: 4.2.1(@types/node@18.15.11)
       vitefu: 0.2.4(vite@4.2.1)
     transitivePeerDependencies:
