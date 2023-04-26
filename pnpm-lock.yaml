@@ -52,14 +52,14 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   vite:
-    specifier: 4.3.2
-    version: 4.3.2(@types/node@18.16.1)
+    specifier: 4.3.3
+    version: 4.3.3(@types/node@18.16.1)
   vite-plugin-solid:
     specifier: 2.7.0
-    version: 2.7.0(solid-js@1.7.3)(vite@4.3.2)
+    version: 2.7.0(solid-js@1.7.3)(vite@4.3.3)
   vite-plugin-tauri:
     specifier: 3.1.0
-    version: 3.1.0(@tauri-apps/cli@1.2.3)(vite@4.3.2)
+    version: 3.1.0(@tauri-apps/cli@1.2.3)(vite@4.3.3)
 
 packages:
 
@@ -2827,7 +2827,7 @@ packages:
     resolution: {integrity: sha512-T1ab131NkP3BfXB7KUSgV7Rhu81R2id+L6NaJ7NypAAG5iV6gXnPpQE5RK1fvb+3JYsPTL+ihWna5sr5RN9gaQ==}
     dev: true
 
-  /vite-plugin-solid@2.7.0(solid-js@1.7.3)(vite@4.3.2):
+  /vite-plugin-solid@2.7.0(solid-js@1.7.3)(vite@4.3.3):
     resolution: {integrity: sha512-avp/Jl5zOp/Itfo67xtDB2O61U7idviaIp4mLsjhCa13PjKNasz+IID0jYTyqUp9SFx6/PmBr6v4KgDppqompg==}
     peerDependencies:
       solid-js: ^1.7.2
@@ -2840,13 +2840,13 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.7.3
       solid-refresh: 0.5.0(solid-js@1.7.3)
-      vite: 4.3.2(@types/node@18.16.1)
-      vitefu: 0.2.4(vite@4.3.2)
+      vite: 4.3.3(@types/node@18.16.1)
+      vitefu: 0.2.4(vite@4.3.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri@3.1.0(@tauri-apps/cli@1.2.3)(vite@4.3.2):
+  /vite-plugin-tauri@3.1.0(@tauri-apps/cli@1.2.3)(vite@4.3.3):
     resolution: {integrity: sha512-jdDabGG/IKnhACRATnQTCD63tcfPVUvOsV4jjQIKMj07PjEUySVqrG7gpxZYqQXUp7TlM8C6lR8Doiwj0RX1XQ==}
     engines: {node: '>=14.6.0'}
     peerDependencies:
@@ -2855,11 +2855,11 @@ packages:
     dependencies:
       '@tauri-apps/cli': 1.2.3
       fast-glob: 3.2.12
-      vite: 4.3.2(@types/node@18.16.1)
+      vite: 4.3.3(@types/node@18.16.1)
     dev: true
 
-  /vite@4.3.2(@types/node@18.16.1):
-    resolution: {integrity: sha512-9R53Mf+TBoXCYejcL+qFbZde+eZveQLDYd9XgULILLC1a5ZwPaqgmdVpL8/uvw2BM/1TzetWjglwm+3RO+xTyw==}
+  /vite@4.3.3(@types/node@18.16.1):
+    resolution: {integrity: sha512-MwFlLBO4udZXd+VBcezo3u8mC77YQk+ik+fbc0GZWGgzfbPP+8Kf0fldhARqvSYmtIWoAJ5BXPClUbMTlqFxrA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2891,7 +2891,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu@0.2.4(vite@4.3.2):
+  /vitefu@0.2.4(vite@4.3.3):
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -2899,7 +2899,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.3.2(@types/node@18.16.1)
+      vite: 4.3.3(@types/node@18.16.1)
     dev: true
 
   /which@2.0.2:
