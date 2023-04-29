@@ -13,8 +13,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 18.16.2
-    version: 18.16.2
+    specifier: 18.16.3
+    version: 18.16.3
   '@typescript-eslint/eslint-plugin':
     specifier: 5.59.1
     version: 5.59.1(@typescript-eslint/parser@5.59.1)(eslint@8.39.0)(typescript@5.0.4)
@@ -53,7 +53,7 @@ devDependencies:
     version: 5.0.4
   vite:
     specifier: 4.3.3
-    version: 4.3.3(@types/node@18.16.2)
+    version: 4.3.3(@types/node@18.16.3)
   vite-plugin-solid:
     specifier: 2.7.0
     version: 2.7.0(solid-js@1.7.3)(vite@4.3.3)
@@ -828,8 +828,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node@18.16.2:
-    resolution: {integrity: sha512-GQW/JL/5Fz/0I8RpeBG9lKp0+aNcXEaVL71c0D2Q0QHDTFvlYKT7an0onCUXj85anv7b4/WesqdfchLc0jtsCg==}
+  /@types/node@18.16.3:
+    resolution: {integrity: sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==}
     dev: true
 
   /@types/semver@7.3.13:
@@ -2840,7 +2840,7 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.7.3
       solid-refresh: 0.5.0(solid-js@1.7.3)
-      vite: 4.3.3(@types/node@18.16.2)
+      vite: 4.3.3(@types/node@18.16.3)
       vitefu: 0.2.4(vite@4.3.3)
     transitivePeerDependencies:
       - supports-color
@@ -2855,10 +2855,10 @@ packages:
     dependencies:
       '@tauri-apps/cli': 1.2.3
       fast-glob: 3.2.12
-      vite: 4.3.3(@types/node@18.16.2)
+      vite: 4.3.3(@types/node@18.16.3)
     dev: true
 
-  /vite@4.3.3(@types/node@18.16.2):
+  /vite@4.3.3(@types/node@18.16.3):
     resolution: {integrity: sha512-MwFlLBO4udZXd+VBcezo3u8mC77YQk+ik+fbc0GZWGgzfbPP+8Kf0fldhARqvSYmtIWoAJ5BXPClUbMTlqFxrA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2883,7 +2883,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.2
+      '@types/node': 18.16.3
       esbuild: 0.17.12
       postcss: 8.4.23
       rollup: 3.21.0
@@ -2899,7 +2899,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.3.3(@types/node@18.16.2)
+      vite: 4.3.3(@types/node@18.16.3)
     dev: true
 
   /which@2.0.2:
