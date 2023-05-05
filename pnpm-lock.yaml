@@ -58,8 +58,8 @@ devDependencies:
     specifier: 2.7.0
     version: 2.7.0(solid-js@1.7.4)(vite@4.3.4)
   vite-plugin-tauri:
-    specifier: 3.1.0
-    version: 3.1.0(@tauri-apps/cli@1.3.0)(vite@4.3.4)
+    specifier: 3.1.1
+    version: 3.1.1(@tauri-apps/cli@1.3.0)(vite@4.3.4)
 
 packages:
 
@@ -2847,8 +2847,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri@3.1.0(@tauri-apps/cli@1.3.0)(vite@4.3.4):
-    resolution: {integrity: sha512-jdDabGG/IKnhACRATnQTCD63tcfPVUvOsV4jjQIKMj07PjEUySVqrG7gpxZYqQXUp7TlM8C6lR8Doiwj0RX1XQ==}
+  /vite-plugin-tauri@3.1.1(@tauri-apps/cli@1.3.0)(vite@4.3.4):
+    resolution: {integrity: sha512-4T6/217gL4LPIB8xB2pEwdUpNs7Bpd8+MFlQSvC9gFALnXNSrBEX1hbKlwhkGCtYzUaBZyDXeRVJBv3HPtsBgQ==}
     engines: {node: '>=14.6.0'}
     peerDependencies:
       '@tauri-apps/cli': '>= 1'
