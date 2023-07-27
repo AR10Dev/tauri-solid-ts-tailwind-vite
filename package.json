@@ -21,7 +21,7 @@
     "cssnano": "6.0.1",
     "cssnano-preset-advanced": "6.0.1",
     "eslint": "8.45.0",
-    "eslint-config-prettier": "8.8.0",
+    "eslint-config-prettier": "8.9.0",
     "eslint-plugin-prettier": "4.2.1",
     "postcss": "8.4.27",
     "prettier": "2.8.8",
