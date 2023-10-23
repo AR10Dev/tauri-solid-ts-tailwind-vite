@@ -19,7 +19,7 @@ jobs:
           version: latest
 
       - name: Setup node and Cache .pnpm-store
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: latest
           cache: 'pnpm'
