@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 18.18.14
-    version: 18.18.14
+    specifier: 18.19.0
+    version: 18.19.0
   '@typescript-eslint/eslint-plugin':
     specifier: 5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.54.0)(typescript@5.3.2)
@@ -57,7 +57,7 @@ devDependencies:
     version: 5.3.2
   vite:
     specifier: 4.5.0
-    version: 4.5.0(@types/node@18.18.14)
+    version: 4.5.0(@types/node@18.19.0)
   vite-plugin-solid:
     specifier: 2.7.2
     version: 2.7.2(solid-js@1.8.6)(vite@4.5.0)
@@ -863,8 +863,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node@18.18.14:
-    resolution: {integrity: sha512-iSOeNeXYNYNLLOMDSVPvIFojclvMZ/HDY2dU17kUlcsOsSQETbWIslJbYLZgA+ox8g2XQwSHKTkght1a5X26lQ==}
+  /@types/node@18.19.0:
+    resolution: {integrity: sha512-667KNhaD7U29mT5wf+TZUnrzPrlL2GNQ5N0BMjO2oNULhBxX0/FKCkm6JMu0Jh7Z+1LwUlR21ekd7KhIboNFNw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -2895,7 +2895,7 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.6
       solid-refresh: 0.5.3(solid-js@1.8.6)
-      vite: 4.5.0(@types/node@18.18.14)
+      vite: 4.5.0(@types/node@18.19.0)
       vitefu: 0.2.4(vite@4.5.0)
     transitivePeerDependencies:
       - supports-color
@@ -2910,10 +2910,10 @@ packages:
     dependencies:
       '@tauri-apps/cli': 1.5.6
       fast-glob: 3.2.12
-      vite: 4.5.0(@types/node@18.18.14)
+      vite: 4.5.0(@types/node@18.19.0)
     dev: true
 
-  /vite@4.5.0(@types/node@18.18.14):
+  /vite@4.5.0(@types/node@18.19.0):
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2941,7 +2941,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.18.14
+      '@types/node': 18.19.0
       esbuild: 0.18.11
       postcss: 8.4.31
       rollup: 3.27.2
@@ -2957,7 +2957,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.5.0(@types/node@18.18.14)
+      vite: 4.5.0(@types/node@18.19.0)
     dev: true
 
   /which@2.0.2:
