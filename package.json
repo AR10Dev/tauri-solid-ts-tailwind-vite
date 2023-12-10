@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "dev:tauri": "vite --config vite.config.tauri.ts",
-    "build:tauri": "vite build --config vite.config.tauri.ts",
+    "dev:tauri": "vite --config vite.config.tauri.js",
+    "build:tauri": "vite build --config vite.config.tauri.js",
     "preview": "vite preview",
     "eslint": "eslint src",
     "eslint:fix": "eslint src --fix"
@@ -21,9 +21,10 @@
     "eslint": "8.55.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.0.1",
-    "lightningcss": "^1.22.1",
+    "lightningcss": "1.22.1",
     "postcss": "8.4.32",
-    "prettier": "3.1.0",
+    "prettier": "3.1.1",
+    "prettier-plugin-tailwindcss": "0.5.9",
     "tailwindcss": "3.3.6",
     "typescript": "5.3.3",
     "vite": "5.0.7",

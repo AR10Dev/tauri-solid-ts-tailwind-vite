@@ -1,12 +1,13 @@
+/* eslint-env node */
+// Docs: https://eslint.org/docs/user-guide/configuring
 module.exports = {
-  parser: '@typescript-eslint/parser',
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:prettier/recommended',
     'prettier'
   ],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2022,
     sourceType: 'module',
@@ -14,7 +15,6 @@ module.exports = {
     project: ['./tsconfig.json'],
   },
   env: {
-    es6: true,
     browser: true,
     es2022: true
   },
@@ -25,5 +25,6 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "error"
   },
-  ignorePatterns: ['node_modules']
+  ignorePatterns: ['node_modules'],
+  root: true
 }
