@@ -8,7 +8,7 @@ module.exports = {
     'prettier'
   ],
   parserOptions: {
-    ecmaVersion: 2021,
+    ecmaVersion: 2022,
     sourceType: 'module',
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json'],
@@ -16,7 +16,7 @@ module.exports = {
   env: {
     es6: true,
     browser: true,
-    es2021: true
+    es2022: true
   },
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
