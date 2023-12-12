@@ -59,14 +59,14 @@ devDependencies:
     specifier: 5.3.3
     version: 5.3.3
   vite:
-    specifier: 5.0.7
-    version: 5.0.7(@types/node@20.10.4)(lightningcss@1.22.1)
+    specifier: 5.0.8
+    version: 5.0.8(@types/node@20.10.4)(lightningcss@1.22.1)
   vite-plugin-solid:
     specifier: 2.8.0
-    version: 2.8.0(solid-js@1.8.7)(vite@5.0.7)
+    version: 2.8.0(solid-js@1.8.7)(vite@5.0.8)
   vite-plugin-tauri:
     specifier: 3.3.0
-    version: 3.3.0(@tauri-apps/cli@1.5.7)(vite@5.0.7)
+    version: 3.3.0(@tauri-apps/cli@1.5.7)(vite@5.0.8)
 
 packages:
 
@@ -2849,7 +2849,7 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vite-plugin-solid@2.8.0(solid-js@1.8.7)(vite@5.0.7):
+  /vite-plugin-solid@2.8.0(solid-js@1.8.7)(vite@5.0.8):
     resolution: {integrity: sha512-n5FAm7ZmTl94VWUoiJCgG7bouF2NlC9CA1wY/qbVnkFbYDWk++bFWyNoU48aLJ+lMtzNeYzJypJXOHzFKxL9xA==}
     peerDependencies:
       solid-js: ^1.7.2
@@ -2862,13 +2862,13 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.7
       solid-refresh: 0.5.3(solid-js@1.8.7)
-      vite: 5.0.7(@types/node@20.10.4)(lightningcss@1.22.1)
-      vitefu: 0.2.5(vite@5.0.7)
+      vite: 5.0.8(@types/node@20.10.4)(lightningcss@1.22.1)
+      vitefu: 0.2.5(vite@5.0.8)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-tauri@3.3.0(@tauri-apps/cli@1.5.7)(vite@5.0.7):
+  /vite-plugin-tauri@3.3.0(@tauri-apps/cli@1.5.7)(vite@5.0.8):
     resolution: {integrity: sha512-3Q3QL117toNSRZMY9LW6DjIgf44JixG/F4sl6vLwh/JYMPeLslp/8fu79sx7ldzE6KI+eAxJ5pQm19tunEVgvg==}
     engines: {node: '>=14.6.0'}
     peerDependencies:
@@ -2877,11 +2877,11 @@ packages:
     dependencies:
       '@tauri-apps/cli': 1.5.7
       fast-glob: 3.2.12
-      vite: 5.0.7(@types/node@20.10.4)(lightningcss@1.22.1)
+      vite: 5.0.8(@types/node@20.10.4)(lightningcss@1.22.1)
     dev: true
 
-  /vite@5.0.7(@types/node@20.10.4)(lightningcss@1.22.1):
-    resolution: {integrity: sha512-B4T4rJCDPihrQo2B+h1MbeGL/k/GMAHzhQ8S0LjQ142s6/+l3hHTT095ORvsshj4QCkoWu3Xtmob5mazvakaOw==}
+  /vite@5.0.8(@types/node@20.10.4)(lightningcss@1.22.1):
+    resolution: {integrity: sha512-jYMALd8aeqR3yS9xlHd0OzQJndS9fH5ylVgWdB+pxTwxLKdO1pgC5Dlb398BUxpfaBxa4M9oT7j1g503Gaj5IQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -2917,7 +2917,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@0.2.5(vite@5.0.7):
+  /vitefu@0.2.5(vite@5.0.8):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -2925,7 +2925,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.0.7(@types/node@20.10.4)(lightningcss@1.22.1)
+      vite: 5.0.8(@types/node@20.10.4)(lightningcss@1.22.1)
     dev: true
 
   /which@2.0.2:
