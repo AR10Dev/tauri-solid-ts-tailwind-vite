@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
-    "@types/node": "20.11.25",
+    "@types/node": "20.11.26",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
     "autoprefixer": "10.4.18",
