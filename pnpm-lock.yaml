@@ -20,8 +20,8 @@ devDependencies:
     specifier: 4.2.1
     version: 4.2.1(prettier@3.2.5)
   '@types/node':
-    specifier: 20.11.29
-    version: 20.11.29
+    specifier: 20.11.30
+    version: 20.11.30
   '@typescript-eslint/eslint-plugin':
     specifier: 6.21.0
     version: 6.21.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.2)
@@ -60,7 +60,7 @@ devDependencies:
     version: 5.4.2
   vite:
     specifier: 5.1.6
-    version: 5.1.6(@types/node@20.11.29)(lightningcss@1.24.1)
+    version: 5.1.6(@types/node@20.11.30)(lightningcss@1.24.1)
   vite-plugin-solid:
     specifier: 2.10.2
     version: 2.10.2(solid-js@1.8.15)(vite@5.1.6)
@@ -877,8 +877,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@20.11.29:
-    resolution: {integrity: sha512-P99thMkD/1YkCvAtOd6/zGedKNA0p2fj4ZpjCzcNiSCBWgm3cNRTBfa/qjFnsKkkojxu4vVLtWpesnZ9+ap+gA==}
+  /@types/node@20.11.30:
+    resolution: {integrity: sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -2784,7 +2784,7 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.15
       solid-refresh: 0.6.3(solid-js@1.8.15)
-      vite: 5.1.6(@types/node@20.11.29)(lightningcss@1.24.1)
+      vite: 5.1.6(@types/node@20.11.30)(lightningcss@1.24.1)
       vitefu: 0.2.5(vite@5.1.6)
     transitivePeerDependencies:
       - supports-color
@@ -2799,10 +2799,10 @@ packages:
     dependencies:
       '@tauri-apps/cli': 1.5.11
       fast-glob: 3.2.12
-      vite: 5.1.6(@types/node@20.11.29)(lightningcss@1.24.1)
+      vite: 5.1.6(@types/node@20.11.30)(lightningcss@1.24.1)
     dev: true
 
-  /vite@5.1.6(@types/node@20.11.29)(lightningcss@1.24.1):
+  /vite@5.1.6(@types/node@20.11.30)(lightningcss@1.24.1):
     resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2830,7 +2830,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.29
+      '@types/node': 20.11.30
       esbuild: 0.19.9
       lightningcss: 1.24.1
       postcss: 8.4.36
@@ -2847,7 +2847,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.6(@types/node@20.11.29)(lightningcss@1.24.1)
+      vite: 5.1.6(@types/node@20.11.30)(lightningcss@1.24.1)
     dev: true
 
   /which@2.0.2:
