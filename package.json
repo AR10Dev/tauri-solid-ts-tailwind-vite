@@ -28,7 +28,7 @@
     "prettier-plugin-tailwindcss": "0.5.12",
     "tailwindcss": "3.4.1",
     "typescript": "5.4.3",
-    "vite": "5.2.3",
+    "vite": "5.2.4",
     "vite-plugin-solid": "2.10.2",
     "vite-plugin-tauri": "3.3.0"
   },
