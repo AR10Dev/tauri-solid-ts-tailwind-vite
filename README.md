@@ -56,7 +56,7 @@ When you use this template, follow the checklist to update your info properly
 ### Development
 
 ```bash
-npm run dev # or pnpm dev or yarn dev
+npm run dev:tauri # or pnpm dev:tauri or yarn dev:tauri
 ```
 
 Runs the app in the development mode.<br>
@@ -69,13 +69,13 @@ When you make edits to the Rust files, they will be rebuilt automatically and yo
 ### Build
 
 ```bash
-npm run build # or pnpm build or yarn build
+npm run build:tauri # or pnpm build:tauri or yarn build:tauri
 ```
 
 Builds Solid to the `dist` folder and after will embed it into a single binary with your Rust code.<br>
 The binary itself will be located in `src-tauri/target/release/[app name]`, and installers will be located in `src-tauri/target/release/bundle/`<br>
 
-Like the `dev` command, the first time you run this, it will take some time to collect the Rust crates and build everything - but on subsequent runs it will only need to rebuild your code, which is much quicker.<br>
+Like the `dev:tauri` command, the first time you run this, it will take some time to collect the Rust crates and build everything - but on subsequent runs it will only need to rebuild your code, which is much quicker.<br>
 
 It correctly bundles Solid in production mode and optimizes the binary for the best performance.<br>
 
