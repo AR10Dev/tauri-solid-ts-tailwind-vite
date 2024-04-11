@@ -23,16 +23,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y webkit2gtk-4.0
           
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          version: latest
-
-      - name: Setup node and Cache .pnpm-store
-        uses: actions/setup-node@v4
-        with:
-          node-version: latest
-          cache: 'pnpm'
+          bun-version: latest
           
       - name: Rust setup
         uses: actions-rs/toolchain@v1
@@ -41,7 +35,7 @@ jobs:
           profile: minimal
           
       - name: Install dependencies
-        run: pnpm install
+        run: bun install
           
       - name: Build 🔧
         uses: tauri-apps/tauri-action@v0
@@ -53,4 +47,4 @@ jobs:
           releaseName: 'v__VERSION__'
           releaseDraft: true
           prerelease: false
-          tauriScript: 'pnpm'
+          tauriScript: 'bun'

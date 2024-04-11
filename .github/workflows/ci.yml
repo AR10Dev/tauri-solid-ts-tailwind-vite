@@ -42,19 +42,13 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
           restore-keys: ${{ runner.os }}-cargo-
         
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          version: latest
-
-      - name: Setup node and Cache .pnpm-store
-        uses: actions/setup-node@v4
-        with:
-          node-version: latest
-          cache: 'pnpm'
+          bun-version: latest
         
       - name: Install dependencies
-        run: pnpm install
+        run: bun install
 
       - name: Build 🔧
-        run: pnpm build:tauri
+        run: bun run build:tauri

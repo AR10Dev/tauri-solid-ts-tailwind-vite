@@ -25,16 +25,16 @@ A starter template for [Tauri](https://tauri.app) + [Solid](https://solidjs.com)
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/AR10Dev/solid-tailwind-ts-vite/generate)
+[Create a repo from this template on GitHub](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite/generate)
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit AR10Dev/tauri-solid-ts-tailwind-vite my-app
+npx degit AR10Dev/tauri-solid-ts-tailwind-vite my-app # or bunx degit AR10Dev/tauri-solid-ts-tailwind-vite my-app
 cd my-app
-npm install # or pnpm install or yarn install
+npm install # or pnpm install or yarn install or bun install
 ```
 
 ### Note
@@ -56,7 +56,7 @@ When you use this template, follow the checklist to update your info properly
 ### Development
 
 ```bash
-npm run dev:tauri # or pnpm dev:tauri or yarn dev:tauri
+npm run dev:tauri # or pnpm dev:tauri or yarn dev:tauri or bun dev:tauri
 ```
 
 Runs the app in the development mode.<br>
@@ -69,7 +69,7 @@ When you make edits to the Rust files, they will be rebuilt automatically and yo
 ### Build
 
 ```bash
-npm run build:tauri # or pnpm build:tauri or yarn build:tauri
+npm run build:tauri # or pnpm build:tauri or yarn build:tauri or bun build:tauri
 ```
 
 Builds Solid to the `dist` folder and after will embed it into a single binary with your Rust code.<br>
