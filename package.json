@@ -10,7 +10,8 @@
     "build:tauri": "vite build --config vite.config.tauri.js",
     "preview": "vite preview",
     "eslint": "eslint src",
-    "eslint:fix": "eslint src --fix"
+    "eslint:fix": "eslint src --fix",
+    "tauri": "tauri"
   },
   "license": "MIT",
   "devDependencies": {
