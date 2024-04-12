@@ -1,6 +1,6 @@
 [package]
 name = "app"
-version = "1.0.0"
+version = "2.0.0"
 description = "A Tauri Solid TypeScript Tailwind Vite App Template"
 authors = ["AR10"]
 license = "MIT"
