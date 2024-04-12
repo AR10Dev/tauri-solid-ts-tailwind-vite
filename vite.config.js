@@ -1,16 +1,15 @@
 /** @type {import('vite').UserConfig} */
 import { defineConfig } from 'vite'
-import solidPlugin from 'vite-plugin-solid'
-import tailwindcss from 'tailwindcss'
+import solid from 'vite-plugin-solid'
+import tailwindcss from '@tailwindcss/vite'
 import autoprefixer from 'autoprefixer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [solidPlugin()],
+  plugins: [solid(), tailwindcss()],
   css: {
     postcss: {
       plugins: [
-        tailwindcss,
         autoprefixer
       ]
     }
