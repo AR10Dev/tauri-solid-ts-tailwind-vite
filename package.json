@@ -23,7 +23,7 @@
     "autoprefixer": "10.4.19",
     "eslint": "9.2.0",
     "eslint-config-prettier": "9.1.0",
-    "lightningcss": "1.24.1",
+    "lightningcss": "1.25.0",
     "postcss": "8.4.38",
     "prettier": "3.2.5",
     "prettier-eslint-cli": "8.0.1",
