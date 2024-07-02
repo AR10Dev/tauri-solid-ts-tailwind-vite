@@ -3500,9 +3500,9 @@ dependencies = [
 
 [[package]]
 name = "tauri"
-version = "1.7.0"
+version = "1.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0e3b2c32de5bf5bed15a376064286643862b84e4e091d093f7bcdf1fda4b9758"
+checksum = "336bc661a3f3250853fa83c6e5245449ed1c26dce5dcb28bdee7efedf6278806"
 dependencies = [
  "anyhow",
  "bytes",
