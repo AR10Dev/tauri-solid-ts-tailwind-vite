@@ -30,7 +30,7 @@
     "prettier-plugin-tailwindcss": "0.6.8",
     "tailwindcss": "3.4.13",
     "typescript": "5.6.3",
-    "typescript-eslint": "7.18.0",
+    "typescript-eslint": "8.8.1",
     "vite": "5.4.8",
     "vite-plugin-solid": "2.10.2",
     "vite-plugin-tauri": "3.3.0"
