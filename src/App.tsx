@@ -4,7 +4,7 @@ const App: Component = () => {
   return (
     <p class="py-20 text-center text-4xl text-green-700">
       This is a{' '}
-      <a href="https://www.tauri.studio/" target="_blank">
+      <a href="https://www.tauri.app/" target="_blank">
         Tauri
       </a>{' '}
       +{' '}

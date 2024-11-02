@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [macos-latest, ubuntu-latest, windows-latest]
+        platform: [macos-latest, ubuntu-24.04, windows-latest]
         
     runs-on: ${{ matrix.platform }}
     steps:
@@ -18,10 +18,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install webkit2gtk (ubuntu only)
-        if: matrix.platform == 'ubuntu-latest'
+        if: matrix.platform == 'ubuntu-24.04'
         run: |
           sudo apt-get update
-          sudo apt-get install -y webkit2gtk-4.0
+          sudo apt-get install -y libwebkit2gtk-4.1-dev file libxdo-dev libssl-dev libayatana-appindicator3-dev  librsvg2-dev
           
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
