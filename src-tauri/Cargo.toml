@@ -28,9 +28,12 @@ tauri = { version = "2.0.6", features = [] }
 default = [ "custom-protocol" ]
 custom-protocol = [ "tauri/custom-protocol" ]
 
+[profile.dev]
+incremental = true      # Compile your binary in smaller steps.
+
 [profile.release]
 strip = true            # Automatically strip symbols from the binary
 panic = "abort"         # Strip expensive panic clean-up logic
 codegen-units = 1       # Compile crates one after another so the compiler can optimize better
 lto = true              # Enables link to optimizations
-opt-level = "s"         # Optimize for binary size
+opt-level = "s"         # Optimize for binary size. Use `3` if you prefer speed.
