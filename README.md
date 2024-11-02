@@ -5,7 +5,7 @@
 [![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://AR10Dev/tauri-solid-ts-tailwind-vite)
 
 A starter template for [Tauri](https://tauri.app) + [Solid](https://solidjs.com) App that comes preconfigured with [Vite](https://vitejs.dev),
-[TypeScript](https://typescriptlang.org), [Tailwind CSS](https://tailwindcss.com), [ESLint](https://eslint.org), [Prettier](https://prettier.io) and HMR.
+[TypeScript](https://typescriptlang.org), [Tailwind CSS](https://tailwindcss.com), [ESLint](https://eslint.org), [Prettier](https://prettier.io) and HMR (Hot Module Replacement).
 
 ## Features
 
@@ -38,7 +38,7 @@ npm install # or pnpm install or yarn install or bun install
 ```
 
 ### Note
-For use Tauri you need to Setup your environment following this [guide](https://tauri.app/guides/getting-started/prerequisites)
+For use Tauri you need to Setup your environment following this [guide](https://tauri.app/start/prerequisites/)
 
 ## Checklist
 
@@ -49,6 +49,7 @@ When you use this template, follow the checklist to update your info properly
 - [ ] Change the author name in `LICENSE`
 - [ ] Clean up the READMEs
 - [ ] Optional: Remove the `.github` folder which contains the github action for cross compilation
+- [ ] Optional: Remove the `.devcontainer` folder which contains the devcontainer for VSCode
 - [ ] Enjoy 😉
 
 ## Usage
@@ -63,8 +64,7 @@ Runs the app in the development mode.<br>
 
 The first time you run this command, it will take several minutes for the Rust package manager to download and build all the required packages. Since they are cached, subsequent builds will be much faster, as only your code will need rebuilding.<br>
 
-If you make edits to the page in the webview should update automatically just like a browser will reload.<br>
-When you make edits to the Rust files, they will be rebuilt automatically and your app will restart.<br>
+If you make edits to the page in the webview, it should update automatically, just like a browser would reload. When you make edits to the Rust files, they will be rebuilt automatically, and your app will restart.<br>
 
 ### Build
 
@@ -75,16 +75,16 @@ npm run build:tauri # or pnpm build:tauri or yarn build:tauri or bun build:tauri
 Builds Solid to the `dist` folder and after will embed it into a single binary with your Rust code.<br>
 The binary itself will be located in `src-tauri/target/release/[app name]`, and installers will be located in `src-tauri/target/release/bundle/`<br>
 
-Like the `dev:tauri` command, the first time you run this, it will take some time to collect the Rust crates and build everything - but on subsequent runs it will only need to rebuild your code, which is much quicker.<br>
+Like the `dev:tauri` command, the first time you run this, it will take some time to collect the Rust crates and build everything, but on subsequent runs, it will only need to rebuild your code, which is much quicker.<br>
 
 It correctly bundles Solid in production mode and optimizes the binary for the best performance.<br>
 
 🎉 Congratulations, your app is ready to be release!
 
 ## Custom App Icon
-To generate your custom app icon you can follow this [guide](https://tauri.app/guides/features/icons).<br>
-Your new app icons will be located in `src-tauri/icons/` and remeber to update the `icon` field in `src-tauri/tauri.conf.json` with all your new icon path name.<br>
+To generate your custom app icon you can follow this [guide](https://v2.tauri.app/reference/cli/#icon).<br>
+Your new app icons will be located in `src-tauri/icons/` and remeber to update the `icon` field in `src-tauri/tauri.conf.json` with all your new icon path names.<br>
 
 ## Customize the tauri.conf.json
 
-To modify and personalize your app, you need to modify `src-tauri/tauri.conf.json` by following this [guide](https://tauri.app/api/config)
+To modify and personalize your app, you need to edit `src-tauri/tauri.conf.json` by following this [guide](https://tauri.app/develop/configuration-files/)
