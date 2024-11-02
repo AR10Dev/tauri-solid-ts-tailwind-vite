@@ -24,7 +24,7 @@
     "eslint": "9.14.0",
     "eslint-config-prettier": "9.1.0",
     "postcss": "8.4.47",
-    "prettier": "3.2.5",
+    "prettier": "3.3.3",
     "prettier-eslint-cli": "8.0.1",
     "prettier-plugin-tailwindcss": "0.5.13",
     "tailwindcss": "3.4.14",
