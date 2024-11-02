@@ -1,5 +1,5 @@
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
-fn run() {
+pub fn run() {
   tauri::Builder::default()
     // .plugin( /* Add your Tauri plugin here */ )
     // Add your commands here that you will call from your JS code  
