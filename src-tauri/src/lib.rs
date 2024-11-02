@@ -1,5 +1,4 @@
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
-
 fn run() {
   tauri::Builder::default()
     // .plugin( /* Add your Tauri plugin here */ )
