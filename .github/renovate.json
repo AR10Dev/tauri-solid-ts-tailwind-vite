@@ -2,6 +2,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:base", ":disableDependencyDashboard"],
     "enabledManagers": ["cargo", "bun", "github-actions"],
+    "commitMessagePrefix": "📦 chore(deps):",
     "packageRules": [
         {
             "matchUpdateTypes": ["minor", "patch", "pin", "digest", "rollback"],
