@@ -17,11 +17,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@eslint/js": "9.15.0",
+    "@eslint/js": "9.16.0",
     "@ianvs/prettier-plugin-sort-imports": "4.4.0",
     "@types/node": "22.10.1",
     "autoprefixer": "10.4.20",
-    "eslint": "9.15.0",
+    "eslint": "9.16.0",
     "eslint-config-prettier": "9.1.0",
     "lightningcss": "1.28.2",
     "postcss": "8.4.49",
