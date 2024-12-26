@@ -1,26 +1,15 @@
+import Footer from '@components/Footer'
+import Header from '@components/Header'
+import Main from '@components/Main'
 import type { Component } from 'solid-js'
 
 const App: Component = () => {
   return (
-    <p class="py-20 text-center text-4xl text-green-700">
-      This is a{' '}
-      <a href="https://www.tauri.app/" target="_blank">
-        Tauri
-      </a>{' '}
-      +{' '}
-      <a href="https://www.solidjs.com/" target="_blank">
-        Solid
-      </a>{' '}
-      +{' '}
-      <a href="https://tailwindcss.com/" target="_blank">
-        Tailwind
-      </a>{' '}
-      +{' '}
-      <a href="https://www.typescriptlang.org/" target="_blank">
-        Typescript
-      </a>{' '}
-      App!
-    </p>
+    <div class="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   )
 }
 
