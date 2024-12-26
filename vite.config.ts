@@ -1,5 +1,3 @@
-/** @type {import('vite').UserConfig} */
-
 import { defineConfig } from 'vite'
 import solid from 'vite-plugin-solid'
 import autoprefixer from 'autoprefixer'
