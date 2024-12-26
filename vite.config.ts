@@ -1,16 +1,15 @@
-/** @type {import('vite').UserConfig} */
-
 import { defineConfig } from 'vite'
 import solid from 'vite-plugin-solid'
 import autoprefixer from 'autoprefixer'
 import tailwindcss from 'tailwindcss'
 import process from 'node:process'
+import tsconfigPaths from 'vite-tsconfig-paths'
 
 const host = process.env.TAURI_DEV_HOST;
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [solid()],
+  plugins: [solid(), tsconfigPaths()],
   css: {
     postcss: {
       plugins: [
