@@ -7,7 +7,7 @@
 	"features": {
 		"ghcr.io/michidk/devcontainers-features/bun:1": {},
 		"ghcr.io/devcontainers/features/desktop-lite:1": {},
-        "ghcr.io/devcontainers/features/rust:1": {}
+        	"ghcr.io/devcontainers/features/rust:1": {}
 	}
 
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
