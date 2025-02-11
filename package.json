@@ -21,7 +21,7 @@
     "@ianvs/prettier-plugin-sort-imports": "4.4.1",
     "@types/node": "22.13.1",
     "autoprefixer": "10.4.20",
-    "eslint": "9.20.0",
+    "eslint": "9.20.1",
     "eslint-config-prettier": "9.1.0",
     "lightningcss": "1.29.1",
     "postcss": "8.5.2",
