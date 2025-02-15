@@ -22,7 +22,7 @@
     "@tailwindcss/vite": "4.0.6",
     "@types/node": "22.13.4",
     "eslint": "9.20.1",
-    "eslint-config-prettier": "9.1.0",
+    "eslint-config-prettier": "10.0.1",
     "lightningcss": "1.29.1",
     "prettier": "3.5.1",
     "prettier-eslint-cli": "8.0.1",
