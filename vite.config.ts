@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import solid from 'vite-plugin-solid'
-import autoprefixer from 'autoprefixer'
-import tailwindcss from 'tailwindcss'
+import tailwindcss from "@tailwindcss/vite";
 import process from 'node:process'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
@@ -9,15 +8,7 @@ const host = process.env.TAURI_DEV_HOST;
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [solid(), tsconfigPaths()],
-  css: {
-    postcss: {
-      plugins: [
-        tailwindcss,
-        autoprefixer
-      ]
-    }
-  },
+  plugins: [solid(), tailwindcss(), tsconfigPaths()],
   // prevent vite from obscuring rust errors
   clearScreen: false,
   // Tauri expects a fixed port, fail if that port is not available
