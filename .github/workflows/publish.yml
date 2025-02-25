@@ -10,34 +10,37 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [macos-latest, ubuntu-24.04, windows-latest]
+        platform: [macos-latest, ubuntu-latest, windows-latest]
         
     runs-on: ${{ matrix.platform }}
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout repository 🛎️
         uses: actions/checkout@v4
 
-      - name: Install webkit2gtk (ubuntu only)
-        if: matrix.platform == 'ubuntu-24.04'
+      - name: Install Tauri system dependencies (Ubuntu only)
+        if: matrix.platform == 'ubuntu-latest'
         run: |
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev file libxdo-dev libssl-dev libayatana-appindicator3-dev  librsvg2-dev
           
-      - name: Setup Bun
+      - name: Setup Bun runtime
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
           
-      - name: Rust setup
-        uses: actions-rs/toolchain@v1
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
         with:
-          toolchain: stable
-          profile: minimal
+          # Those targets are only used on macos runners so it's in an `if` to slightly speed up windows and linux builds.
+          targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
+
+      - name: Configure Rust dependency caching
+        uses: Swatinem/rust-cache@v2
           
-      - name: Install dependencies
+      - name: Install frontend dependencies
         run: bun install
           
-      - name: Build 🔧
+      - name: Build and publish Tauri application 🚀
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
