@@ -2,7 +2,12 @@
 
 [//]:[![Stars](https://img.shields.io/github/stars/AR10Dev/tauri-solid-ts-tailwind-vite?style=social)](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite)
 [![Rust](https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust&logoColor=#E57324)](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite)
-[![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://AR10Dev/tauri-solid-ts-tailwind-vite)
+[![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite)
+[![Solid JS](https://img.shields.io/badge/SolidJS-2C4F7C?style=for-the-badge&logo=solid&logoColor=white)](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite)
+[![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite)
 
 A starter template for [Tauri](https://tauri.app) + [Solid](https://solidjs.com) App that comes preconfigured with [Vite](https://vitejs.dev),
 [TypeScript](https://typescriptlang.org), [Tailwind CSS](https://tailwindcss.com), [ESLint](https://eslint.org), [Prettier](https://prettier.io) and HMR (Hot Module Replacement).
@@ -82,7 +87,7 @@ It correctly bundles Solid in production mode and optimizes the binary for the b
 🎉 Congratulations, your app is ready to be release!
 
 ## Custom App Icon
-To generate your custom app icon you can follow this [guide](https://v2.tauri.app/reference/cli/#icon).<br>
+To generate your custom app icon you can follow this [guide](https://tauri.app/reference/cli/#icon).<br>
 Your new app icons will be located in `src-tauri/icons/` and remeber to update the `icon` field in `src-tauri/tauri.conf.json` with all your new icon path names.<br>
 
 ## Customize the tauri.conf.json
