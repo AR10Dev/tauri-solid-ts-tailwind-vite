@@ -18,7 +18,7 @@
 	"features": {
 		"ghcr.io/prulloac/devcontainer-features/bun:1": {},
 		"ghcr.io/devcontainers/features/desktop-lite:1": {},
-        "ghcr.io/devcontainers/features/rust:1": {},
+		"ghcr.io/devcontainers/features/rust:1": {},
 		"ghcr.io/devcontainers-extra/features/apt-packages:1": {
 			"packages": "libwebkit2gtk-4.1-dev,build-essential,file,libxdo-dev,libssl-dev,libayatana-appindicator3-dev,librsvg2-dev" 
 		}
