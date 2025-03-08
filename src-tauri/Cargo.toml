@@ -6,7 +6,7 @@ authors = ["AR10"]
 license = "MIT"
 repository = "https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite"
 default-run = "app"
-edition = "2021"
+edition = "2024"
 
 [lib]
 # The `_lib` suffix may seem redundant but it is necessary

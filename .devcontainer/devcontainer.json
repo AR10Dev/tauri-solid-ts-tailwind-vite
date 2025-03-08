@@ -3,12 +3,7 @@
 {
 	"name": "Tauri",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"features": {
-		"ghcr.io/michidk/devcontainers-features/bun:1": {},
-		"ghcr.io/devcontainers/features/desktop-lite:1": {},
-        	"ghcr.io/devcontainers/features/rust:1": {}
-	}
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
 	// "mounts": [
@@ -20,7 +15,14 @@
 	// ]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"ghcr.io/prulloac/devcontainer-features/bun:1": {},
+		"ghcr.io/devcontainers/features/desktop-lite:1": {},
+		"ghcr.io/devcontainers/features/rust:1": {},
+		"ghcr.io/devcontainers-extra/features/apt-packages:1": {
+			"packages": "libwebkit2gtk-4.1-dev,build-essential,file,libxdo-dev,libssl-dev,libayatana-appindicator3-dev,librsvg2-dev" 
+		}
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
