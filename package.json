@@ -23,7 +23,7 @@
     "@types/node": "22.15.17",
     "eslint": "9.26.0",
     "eslint-config-prettier": "10.1.5",
-    "lightningcss": "1.29.3",
+    "lightningcss": "1.30.0",
     "prettier": "3.5.3",
     "prettier-eslint-cli": "8.0.1",
     "prettier-plugin-tailwindcss": "0.6.11",
