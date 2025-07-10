@@ -18,7 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "9.30.1",
-    "@ianvs/prettier-plugin-sort-imports": "4.4.2",
+    "@ianvs/prettier-plugin-sort-imports": "4.5.1",
     "@tailwindcss/vite": "4.1.11",
     "@types/node": "22.16.2",
     "eslint": "9.30.1",
