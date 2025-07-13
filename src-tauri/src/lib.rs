@@ -1,12 +1,11 @@
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
-    #[cfg(debug_assertions)] // only enable instrumentation in development builds
-    let devtools = tauri_plugin_devtools::init();
-
     let mut builder = tauri::Builder::default();
 
+    // Enable the Tauri devtools plugin in development builds
     #[cfg(debug_assertions)]
     {
+        let devtools = tauri_plugin_devtools::init();
         builder = builder.plugin(devtools);
     }
 
