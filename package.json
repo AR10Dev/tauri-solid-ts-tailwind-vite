@@ -20,7 +20,7 @@
     "@eslint/js": "9.35.0",
     "@ianvs/prettier-plugin-sort-imports": "4.7.0",
     "@tailwindcss/vite": "4.1.13",
-    "@types/node": "24.4.0",
+    "@types/node": "24.5.0",
     "eslint": "9.35.0",
     "eslint-config-prettier": "10.1.8",
     "lightningcss": "1.30.1",
