@@ -5,6 +5,10 @@
     "commitMessagePrefix": "📦 chore(deps):",
     "packageRules": [
         {
+            "matchManagers": ["cargo"],
+            "rangeStrategy": "bump"
+        },
+        {
             "matchUpdateTypes": ["minor", "patch", "pin", "digest", "rollback"],
             "automerge": true,
             "automergeType": "branch"
