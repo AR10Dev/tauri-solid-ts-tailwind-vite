@@ -15,7 +15,7 @@ jobs:
     runs-on: ${{ matrix.platform }}
     steps:
       - name: Checkout repository 🛎️
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Install Tauri system dependencies (Ubuntu only)
         if: matrix.platform == 'ubuntu-latest'
