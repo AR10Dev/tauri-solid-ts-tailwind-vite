@@ -2,13 +2,16 @@ import { defineConfig } from 'vite'
 import solid from 'vite-plugin-solid'
 import tailwindcss from "@tailwindcss/vite";
 import process from 'node:process'
-import tsconfigPaths from 'vite-tsconfig-paths'
 
 const host = process.env.TAURI_DEV_HOST;
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [solid(), tailwindcss(), tsconfigPaths()],
+  plugins: [solid(), tailwindcss()],
+  // support tsconfig paths
+  resolve: {
+    tsconfigPaths: true
+  },
   // prevent vite from obscuring rust errors
   clearScreen: false,
   // Tauri expects a fixed port, fail if that port is not available
@@ -34,7 +37,7 @@ export default defineConfig({
     // Tauri uses Chromium on Windows and WebKit on macOS and Linux
     target: process.env.TAURI_PLATFORM == 'windows' ? 'chrome105' : 'safari13',
     // don't minify for debug builds
-    minify: !process.env.TAURI_DEBUG ? 'esbuild' : false,
+    minify: !process.env.TAURI_DEBUG ? 'oxc' : false,
     cssMinify: !process.env.TAURI_DEBUG ? 'lightningcss' : false,
     // produce sourcemaps for debug builds
     sourcemap: !!process.env.TAURI_DEBUG,
