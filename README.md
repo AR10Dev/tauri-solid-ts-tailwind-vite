@@ -50,11 +50,13 @@ For use Tauri you need to Setup your environment following this [guide](https://
 When you use this template, follow the checklist to update your info properly
 
 - [ ] Rename `name`, `version` and `author` field in `package.json`
-- [ ] Rename `name`, `version`, `description`, `authors` and `repository` field in `src-tauri/Cargo.toml`
+- [ ] Rename `version`, `description`, `authors` and `repository` field in `src-tauri/Cargo.toml`
+- [ ] Rename `productName`, `version`, `identifier` field in `src-tauri/tauri.conf.json`
+- [ ] Change the `build` configuration in `src-tauri/tauri.conf.json` if you are using a different package manager than bun
 - [ ] Change the author name in `LICENSE`
 - [ ] Clean up the READMEs
 - [ ] Optional: Remove the `.github` folder which contains the github action for cross compilation
-- [ ] Optional: Remove the `.devcontainer` folder which contains the devcontainer for VSCode
+- [ ] Optional: Remove the `.devcontainer` folder which contains the devcontainer configuration
 - [ ] Enjoy 😉
 
 ## Usage
