@@ -1,9 +1,9 @@
 // @ts-check
 // Docs: https://eslint.org/docs/user-guide/configuring
 
-import eslint from '@eslint/js';
-import prettierConfig from 'eslint-config-prettier';
-import tseslint from 'typescript-eslint';
+import eslint from '@eslint/js'
+import prettierConfig from 'eslint-config-prettier'
+import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
   eslint.configs.recommended,
@@ -12,9 +12,9 @@ export default tseslint.config(
     languageOptions: {
       parserOptions: {
         projectService: true,
-        tsconfigRootDir: import.meta.dirname,
-      },
-    },
+        tsconfigRootDir: import.meta.dirname
+      }
+    }
   },
-  prettierConfig,
-);
+  prettierConfig
+)

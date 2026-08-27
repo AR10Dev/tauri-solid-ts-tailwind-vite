@@ -9,12 +9,13 @@
     "jsxImportSource": "solid-js",
     "types": ["vite/client", "node"],
     "noEmit": true,
-    "isolatedModules": true,
+    "ignoreDeprecations": "6.0",
     "baseUrl": "./",
+    "isolatedModules": true,
     "paths": {
       "@components/*": ["src/components/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "prettier.config.ts"],
   "exclude": ["node_modules", "dist"]
 }

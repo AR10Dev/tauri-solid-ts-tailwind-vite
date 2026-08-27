@@ -1,12 +1,12 @@
 name: Update Rust Packages
-on: 
+on:
   push:
     branches:
       - 'renovate/**'
     paths:
       - 'src-tauri/Cargo.toml'
       - 'src-tauri/tauri.conf.json'
-      
+
 env:
   CARGO_TERM_COLOR: always
 
@@ -16,23 +16,29 @@ jobs:
     steps:
       - name: Checkout repository 🛎️
         uses: actions/checkout@v7
-        
+
       - name: Install Tauri system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libwebkit2gtk-4.1-dev file libxdo-dev libssl-dev libayatana-appindicator3-dev  librsvg2-dev
-          
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            file \
+            libxdo-dev \
+            libssl-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev
+
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
       - name: Configure Rust dependency caching
         uses: Swatinem/rust-cache@v2
-        
+
       - name: Setup Bun runtime
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-        
+
       - name: Install frontend dependencies
         run: bun install
 

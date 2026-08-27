@@ -1,5 +1,5 @@
 name: Update Bun Dependencies
-on: 
+on:
   push:
     branches:
       - 'renovate/**'
@@ -12,12 +12,12 @@ jobs:
     steps:
       - name: Checkout repository 🛎️
         uses: actions/checkout@v7
-        
+
       - name: Setup Bun runtime
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-        
+
       - name: Install frontend dependencies
         run: bun install
 

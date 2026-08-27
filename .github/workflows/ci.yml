@@ -1,5 +1,5 @@
 name: CI
-on: 
+on:
   pull_request:
     branches:
       - master
@@ -16,25 +16,31 @@ jobs:
     steps:
       - name: Checkout repository 🛎️
         uses: actions/checkout@v7
-        
+
       - name: Install Tauri system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libwebkit2gtk-4.1-dev file libxdo-dev libssl-dev libayatana-appindicator3-dev librsvg2-dev
-      
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            file \
+            libxdo-dev \
+            libssl-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev
+
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
       - name: Configure Rust dependency caching
         uses: Swatinem/rust-cache@v2
-        
+
       - name: Setup Bun runtime
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-        
+
       - name: Install frontend dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
 
       - name: Build Tauri application 🔧
         run: bun run build:tauri
