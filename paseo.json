@@ -1,0 +1,34 @@
+{
+  "worktree": {
+    "setup": "bun install --frozen-lockfile",
+    "teardown": "rm -rf dist"
+  },
+  "scripts": {
+    "lint": {
+      "command": "bun run eslint"
+    },
+    "format": {
+      "command": "bun run prettier"
+    },
+    "build": {
+      "command": "bun run build"
+    },
+    "build-tauri": {
+      "command": "bun run build:tauri"
+    }
+  },
+  "metadataGeneration": {
+    "title": {
+      "instructions": "Use a short, descriptive title naming the app area or task."
+    },
+    "branchName": {
+      "instructions": "Use lowercase kebab-case with a concise type prefix such as feat/, fix/, chore/, or docs/."
+    },
+    "commitMessage": {
+      "instructions": "Use Conventional Commits: type(scope): imperative summary. Keep it concise."
+    },
+    "pullRequest": {
+      "instructions": "Write a concise summary, list the main changes, and include a Testing section with the commands run."
+    }
+  }
+}
