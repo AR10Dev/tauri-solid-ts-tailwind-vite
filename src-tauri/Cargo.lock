@@ -668,9 +668,9 @@ dependencies = [
 
 [[package]]
 name = "devtools-core"
-version = "0.4.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dedc37ac570aaedbe8b854392af558cafdb71c315aa13840c2ecd80ec11762de"
+checksum = "c53d416e473377276435d49d731a75d253b96ee4339831cd85653702b94d8298"
 dependencies = [
  "bytes",
  "devtools-wire-format",
@@ -2821,9 +2821,9 @@ dependencies = [
 
 [[package]]
 name = "ringbuf"
-version = "0.4.8"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fe47b720588c8702e34b5979cb3271a8b1842c7cb6f57408efa70c779363488c"
+checksum = "0b123165531e325df9079f56c036f2da4103a5d5abfef9e2fda4b9c34d1ef7aa"
 dependencies = [
  "crossbeam-utils",
  "portable-atomic",
@@ -3513,9 +3513,9 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-devtools"
-version = "2.2.1"
+version = "2.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "42ce9c0bcf4d9d8b2f77389563d95d577690d1453db00c7b67900110c927adef"
+checksum = "1acb4d1b8490ee79166b72c3f8c989e066650a11aa94dfd0d71fb05c61cdbed0"
 dependencies = [
  "async-stream",
  "bytes",
