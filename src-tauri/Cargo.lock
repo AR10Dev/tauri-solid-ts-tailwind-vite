@@ -674,9 +674,9 @@ dependencies = [
 
 [[package]]
 name = "devtools-core"
-version = "0.4.1"
+version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c53d416e473377276435d49d731a75d253b96ee4339831cd85653702b94d8298"
+checksum = "c9e85926bda763dd434fcfbcfb24af4b2c1a8c3e3c34bcd5d844c48f655cca51"
 dependencies = [
  "bytes",
  "devtools-wire-format",
@@ -3514,9 +3514,9 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-devtools"
-version = "2.2.2"
+version = "2.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1acb4d1b8490ee79166b72c3f8c989e066650a11aa94dfd0d71fb05c61cdbed0"
+checksum = "299a62101a16c14b914ebfaf529b4b64ad9ca534a0ece1c21fc9308d1e3ba9db"
 dependencies = [
  "async-stream",
  "bytes",
