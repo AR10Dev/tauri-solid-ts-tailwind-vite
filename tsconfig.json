@@ -2,18 +2,16 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "ES2022",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "jsx": "preserve",
-    "jsxImportSource": "solid-js",
+    "jsxImportSource": "@solidjs/web",
     "types": ["vite/client", "node"],
     "noEmit": true,
-    "ignoreDeprecations": "6.0",
-    "baseUrl": "./",
     "isolatedModules": true,
     "paths": {
-      "@components/*": ["src/components/*"]
+      "@components/*": ["./src/components/*"]
     }
   },
   "include": ["src", "prettier.config.ts"],

@@ -42,5 +42,11 @@ jobs:
       - name: Install frontend dependencies
         run: bun install --frozen-lockfile
 
+      - name: Type-check frontend
+        run: bun run tsc --noEmit
+
+      - name: Lint frontend
+        run: bun run eslint
+
       - name: Build Tauri application 🔧
         run: bun run build:tauri
