@@ -37,6 +37,6 @@
     "@solidjs/web": "2.0.1",
     "@tauri-apps/api": "2.12.5",
     "@tauri-apps/cli": "2.12.5",
-    "solid-js": "2.0.0"
+    "solid-js": "2.0.1"
   }
 }
